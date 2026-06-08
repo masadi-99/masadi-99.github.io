@@ -1,6 +1,3 @@
----
-permalink: /llms.txt
----
 # Mohammad Asadi
 
 > PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE; co-first author of MARCUS. Amazon AI PhD Fellow and Stanford HAI Graduate Fellow.
