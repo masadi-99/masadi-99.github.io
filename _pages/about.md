@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student, Electrical Engineering · <a href="https://www.stanford.edu/">Stanford University</a> · <a href="https://ashleylab.stanford.edu/">Ashley Lab</a>
+subtitle: PhD student, Electrical Engineering · <a href="https://www.stanford.edu/">Stanford University</a> · <a href="https://ashleylab.stanford.edu/">Ashley Lab</a> · <a href="https://stai.stanford.edu/">STAI Lab</a>
 
 profile:
   align: right
