@@ -19,6 +19,6 @@
   interview: true
 - key: decoder
   outlet: The Decoder
-  title: AI models confidently describe images they never saw — and benchmarks fail to catch it
+  title: AI models confidently describe images they never saw, and benchmarks fail to catch it
   url: https://the-decoder.com/ai-models-confidently-describe-images-they-never-saw-and-benchmarks-fail-to-catch-it/
   image: art-decoder.jpg

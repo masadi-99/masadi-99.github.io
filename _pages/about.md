@@ -49,7 +49,7 @@ MIRAGE was covered internationally. A few pieces:
     "givenName": "Mohammad",
     "familyName": "Asadi",
     "jobTitle": "PhD Student in Electrical Engineering",
-    "description": "Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. He is first author of MIRAGE — covered by Fortune, Live Science, and Futurism — and co-first author of MARCUS, an Amazon AI PhD Fellow, and a Stanford HAI Graduate Fellow.",
+    "description": "Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. He is first author of MIRAGE (covered by Fortune, Live Science, and Futurism) and co-first author of MARCUS. He is an Amazon AI PhD Fellow and a Stanford HAI Graduate Fellow.",
     "url": "https://masadi-99.github.io/",
     "image": "https://masadi-99.github.io/assets/img/prof_pic.jpg",
     "email": "mailto:masadi@stanford.edu",
@@ -62,7 +62,7 @@ MIRAGE was covered internationally. A few pieces:
     "award": [
       "Amazon AI PhD Fellowship",
       "Stanford HAI Graduate Fellowship",
-      "Fetch.ai Smartest AI Agent Prize, TreeHacks 2024"
+      "Smartest AI Agent Prize, TreeHacks 2024"
     ],
     "knowsAbout": [
       "Artificial Intelligence", "Multimodal Vision-Language Models", "Trustworthy AI",

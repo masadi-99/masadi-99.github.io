@@ -16,7 +16,7 @@
   {%- for p in site.data.press limit: lim -%}
   <li>
     <a class="press-thumb" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">
-      <img src="{{ '/assets/img/press/' | append: p.image | relative_url }}" alt="{{ p.outlet | escape }} — {{ p.title | escape }}" loading="lazy" />
+      <img src="{{ '/assets/img/press/' | append: p.image | relative_url }}" alt="{{ p.outlet | escape }}: {{ p.title | escape }}" loading="lazy" />
     </a>
     <div class="press-meta">
       <div class="press-outlet">{{ p.outlet }}</div>

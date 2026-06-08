@@ -18,3 +18,5 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+<p style="font-size: 0.85rem; color: var(--global-text-color-light);">* Equal contribution &nbsp;·&nbsp; † Co-supervisors</p>

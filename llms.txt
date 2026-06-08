@@ -2,7 +2,7 @@
 
 > PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE; co-first author of MARCUS. Amazon AI PhD Fellow and Stanford HAI Graduate Fellow.
 
-Mohammad Asadi is a PhD student in the Department of Electrical Engineering at Stanford University, in the Ashley Lab. He is advised by Euan Ashley and co-advised by Fei-Fei Li and Ehsan Adeli. His research is multimodal vision-language AI for medicine — models that read and reason over ECG, echocardiography, and cardiac MRI — and the study of when frontier multimodal models fail. He is the first author of MIRAGE ("mirage reasoning": vision-language models confidently describe and diagnose medical images they were never shown), which was covered by Fortune, Live Science, and Futurism. He is co-first author of MARCUS, an agentic multimodal model for cardiac diagnosis. Before Stanford he worked on human-motion generation at Samsung and interpretable machine learning for education at EPFL, and earned a BSc in Electrical Engineering at Sharif University of Technology.
+Mohammad Asadi is a PhD student in the Department of Electrical Engineering at Stanford University, in the Ashley Lab. He is advised by Euan Ashley and co-advised by Fei-Fei Li and Ehsan Adeli. His research is multimodal vision-language AI for medicine (models that read and reason over ECG, echocardiography, and cardiac MRI) and the study of when frontier multimodal models fail. He is the first author of MIRAGE ("mirage reasoning": vision-language models confidently describe and diagnose medical images they were never shown), which was covered by Fortune, Live Science, and Futurism. He is co-first author of MARCUS, an agentic multimodal model for cardiac diagnosis. Before Stanford he worked on human-motion generation at Samsung and interpretable machine learning for education at EPFL, and earned a BSc in Electrical Engineering at Sharif University of Technology.
 
 Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical-engineering professor at Illinois Institute of Technology, and a theoretical physicist). This page refers specifically to the Stanford Electrical Engineering PhD student in the Ashley Lab, author of MIRAGE and MARCUS.
 
@@ -10,17 +10,17 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 - [Home / About](https://masadi-99.github.io/): bio, news, press, selected publications.
 - [Publications](https://masadi-99.github.io/publications/): full list.
 - [In The Press](https://masadi-99.github.io/press/): media coverage of MIRAGE.
-- [CV](https://masadi-99.github.io/cv/): education, experience, awards.
+- [CV](https://masadi-99.github.io/cv/): education, experience, awards, patents.
 
 ## Selected publications
-- MIRAGE: The Illusion of Visual Understanding (first author, 2026) — https://arxiv.org/abs/2603.21687
-- MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management (co-first author, 2026) — https://arxiv.org/abs/2603.22179
-- Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain (first author, 2026) — https://arxiv.org/abs/2603.21693
-- Ripple: Concept-Based Interpretation for Raw Time Series Models in Education (first author, AAAI 2023) — https://arxiv.org/abs/2212.01133
+- MIRAGE: The Illusion of Visual Understanding (first author, 2026): https://arxiv.org/abs/2603.21687
+- MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management (co-first author, 2026): https://arxiv.org/abs/2603.22179
+- Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain (first author, 2026): https://arxiv.org/abs/2603.21693
+- Ripple: Concept-Based Interpretation for Raw Time Series Models in Education (first author, AAAI 2023): https://arxiv.org/abs/2212.01133
 
 ## Facts
 - Affiliation: Department of Electrical Engineering, Stanford University; Ashley Lab; Stanford Translational AI (STAI) Lab.
 - Advisors: Euan Ashley (advisor); Fei-Fei Li and Ehsan Adeli (co-advisors).
-- Awards: Amazon AI PhD Fellowship; Stanford HAI Graduate Fellowship; Fetch.ai "Smartest AI Agent" Prize at TreeHacks 2024.
+- Awards: Amazon AI PhD Fellowship; Stanford HAI Graduate Fellowship; "Smartest AI Agent" Prize at TreeHacks 2024.
 - Press: MIRAGE covered by Fortune, Live Science (interview), and Futurism (interview), among others.
 - Contact: masadi@stanford.edu · Google Scholar (cRuOHB0AAAAJ) · GitHub (masadi-99) · LinkedIn (mohammad-asadi-9a7b6b191).
