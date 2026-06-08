@@ -19,7 +19,7 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 - Ripple: Concept-Based Interpretation for Raw Time Series Models in Education (first author, AAAI 2023) — https://arxiv.org/abs/2212.01133
 
 ## Facts
-- Affiliation: Department of Electrical Engineering, Stanford University; Ashley Lab.
+- Affiliation: Department of Electrical Engineering, Stanford University; Ashley Lab; Stanford Translational AI (STAI) Lab.
 - Advisors: Euan Ashley (advisor); Fei-Fei Li and Ehsan Adeli (co-advisors).
 - Awards: Amazon AI PhD Fellowship; Stanford HAI Graduate Fellowship; Fetch.ai "Smartest AI Agent" Prize at TreeHacks 2024.
 - Press: MIRAGE covered by Fortune, Live Science (interview), and Futurism (interview), among others.
