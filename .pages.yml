@@ -85,6 +85,19 @@ content:
       - { name: description, label: Description, type: string }
       - { name: body, label: Coverage list, type: rich-text }
 
+  - name: press_items
+    label: Press items (logos + links)
+    type: file
+    path: _data/press.yml
+    list: true
+    fields:
+      - { name: key, label: Key, type: string }
+      - { name: outlet, label: Outlet, type: string }
+      - { name: title, label: Headline, type: string }
+      - { name: url, label: Article URL, type: string }
+      - { name: logo, label: Logo file (in assets/img/press), type: string }
+      - { name: interview, label: Interview, type: boolean, default: false }
+
   - name: publications
     label: Publications (BibTeX)
     type: file
