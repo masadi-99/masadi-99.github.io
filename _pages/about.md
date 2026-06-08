@@ -27,4 +27,14 @@ I'm a PhD student in Electrical Engineering at Stanford, where I work in the [As
 
 Before Stanford, I worked on human-motion generation at Samsung and on interpretable machine learning for education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
 
-MIRAGE in the news: [Fortune](https://fortune.com/2026/03/31/ai-mirages-alien-machine-brains-anthropic-leaks/), [Live Science](https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings), and [Futurism](https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see).
+<h2>
+  <a href="/press/" style="color: inherit">in the press</a>
+</h2>
+
+MIRAGE was covered internationally. A few pieces:
+
+- **Fortune** — [AI's ability to see "mirages" shows how alien machine brains really are](https://fortune.com/2026/03/31/ai-mirages-alien-machine-brains-anthropic-leaks/)
+- **Live Science** — [AI "mirages" mean tools used to analyze medical scans could fabricate their findings](https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings) *(interview)*
+- **Futurism** — [Frontier AI models are doing something bizarre when asked to diagnose medical X-rays](https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see) *(interview)*
+
+[See all coverage →](/press/)
