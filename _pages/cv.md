@@ -24,6 +24,10 @@ description: Education, experience, and awards.
 - **Stanford HAI Graduate Fellowship**, 2025
 - **Fetch.ai "Smartest AI Agent" Prize**, TreeHacks 2024 (project: *Healthiator*)
 
+## Service
+
+- Poster Committee Member — *Market Design in the Age of AI* symposium, Stanford University
+
 ## Selected Publications
 
 See the [publications page](/publications/) for the full list. Highlights:
