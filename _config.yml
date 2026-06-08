@@ -11,9 +11,8 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Mohammad Asadi — PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE, co-first author of MARCUS; Amazon AI PhD Fellow and Stanford HAI Graduate Fellow.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Mohammad Asadi, Stanford, Electrical Engineering, AI for medicine, MIRAGE, MARCUS, multimodal vision-language models, cardiology AI, medical AI, Ashley Lab, Amazon AI PhD Fellow, Stanford HAI Graduate Fellow
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
