@@ -16,7 +16,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 
@@ -64,185 +64,194 @@
 </head>
 
 <body>
-  <div class="wrap">
+  <a class="skip-link" href="#about">Skip to content</a>
 
-    <!-- ===================== MASTHEAD ===================== -->
-    <header class="masthead">
-      <div class="masthead__text">
-        <h1>Mohammad Asadi</h1>
-        <p class="masthead__role">PhD student, Electrical Engineering — Stanford University</p>
-        <p class="masthead__role masthead__lab">Ashley Lab</p>
-        <p class="masthead__contact">
-          <a href="mailto:masadi@stanford.edu">masadi@stanford.edu</a> ·
-          <a href="https://scholar.google.com/citations?user=cRuOHB0AAAAJ&hl=en">Google&nbsp;Scholar</a> ·
-          <a href="https://github.com/masadi-99">GitHub</a> ·
-          <a href="https://www.linkedin.com/in/mohammad-asadi-9a7b6b191/">LinkedIn</a>
+  <div class="layout">
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar">
+      <div class="sidebar__id">
+        <img class="sidebar__photo" src="assets/photo.png" alt="Mohammad Asadi" onerror="this.remove()" />
+        <h1 class="sidebar__name">Mohammad<br />Asadi</h1>
+        <p class="sidebar__role">PhD candidate, Electrical Engineering<br />Stanford University · Ashley Lab</p>
+        <ul class="sidebar__links">
+          <li><a href="mailto:masadi@stanford.edu">Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=cRuOHB0AAAAJ&hl=en">Google Scholar</a></li>
+          <li><a href="https://github.com/masadi-99">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/mohammad-asadi-9a7b6b191/">LinkedIn</a></li>
+        </ul>
+      </div>
+      <nav class="nav" aria-label="Sections">
+        <a href="#about"><span class="nav__num">00</span><span class="nav__txt">About</span></a>
+        <a href="#work"><span class="nav__num">01</span><span class="nav__txt">Selected work</span></a>
+        <a href="#news"><span class="nav__num">02</span><span class="nav__txt">News</span></a>
+        <a href="#publications"><span class="nav__num">03</span><span class="nav__txt">Publications</span></a>
+        <a href="#press"><span class="nav__num">04</span><span class="nav__txt">In the news</span></a>
+        <a href="#awards"><span class="nav__num">05</span><span class="nav__txt">Awards</span></a>
+      </nav>
+    </aside>
+
+    <!-- ===================== CONTENT ===================== -->
+    <main class="content">
+
+      <section class="bio" id="about">
+        <p class="bio__lead">
+          I'm a PhD student in Electrical Engineering at Stanford, where I work in the
+          <a href="https://ashleylab.stanford.edu/">Ashley Lab</a>, advised by Euan Ashley and co-advised by
+          Fei-Fei Li and Ehsan Adeli. I build multimodal models for cardiology that read ECG, echocardiograms,
+          and cardiac MRI, and I study where frontier multimodal models fail. In
+          <a href="#publications">MIRAGE</a>, we found that they will confidently diagnose medical images they
+          were never shown.
         </p>
-      </div>
-      <img class="masthead__photo" src="assets/photo.png" alt="Mohammad Asadi" onerror="this.remove()" />
-    </header>
+        <p>
+          Before Stanford, I worked on human-motion generation at Samsung and on interpretable machine learning
+          for education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
+        </p>
+      </section>
 
-    <!-- ===================== BIO ===================== -->
-    <section class="bio">
-      <p>
-        I'm a PhD student in Electrical Engineering at Stanford, where I work in the
-        <a href="https://ashleylab.stanford.edu/">Ashley Lab</a>, advised by Euan Ashley and co-advised by
-        Fei-Fei Li and Ehsan Adeli. I build multimodal models for cardiology that read ECG, echocardiograms,
-        and cardiac MRI, and I study where frontier multimodal models fail. In
-        <a href="#publications">MIRAGE</a>, we found that they will confidently diagnose medical images they were
-        never shown.
-      </p>
-      <p>
-        Before Stanford, I worked on human-motion generation at Samsung and on interpretable machine learning for
-        education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
-      </p>
-    </section>
+      <section class="block" id="work">
+        <h2 class="block__label"><span class="block__num">01</span>Selected work</h2>
+        <div class="work">
+          <figure class="work__item">
+            <a href="https://arxiv.org/abs/2603.21687"><img src="assets/mirage-x1.png" alt="Figure from the MIRAGE paper" loading="lazy" /></a>
+            <figcaption>
+              <a href="https://arxiv.org/abs/2603.21687">MIRAGE: The Illusion of Visual Understanding</a> — frontier
+              vision-language models will confidently describe and "diagnose" medical images they were never shown.
+              <span class="work__links"><a href="https://arxiv.org/abs/2603.21687">arXiv</a> · <a href="https://github.com/masadi-99/MIRAGE">code</a></span>
+            </figcaption>
+          </figure>
+          <figure class="work__item">
+            <a href="https://arxiv.org/abs/2603.22179"><img src="assets/marcus-fig1.jpeg" alt="System overview from the MARCUS paper" loading="lazy" /></a>
+            <figcaption>
+              <a href="https://arxiv.org/abs/2603.22179">MARCUS</a> — an agentic model that reads and reasons over
+              ECG, echocardiography, and cardiac MRI for cardiac diagnosis and management.
+              <span class="work__links"><a href="https://arxiv.org/abs/2603.22179">arXiv</a> · <a href="https://github.com/AshleyLab/MARCUS">code</a></span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
 
-    <!-- ===================== SELECTED WORK ===================== -->
-    <section class="block" id="work">
-      <h2 class="block__label">Selected work</h2>
-      <div class="work">
-        <figure class="work__item">
-          <a href="https://arxiv.org/abs/2603.21687"><img src="assets/mirage-x1.png" alt="Figure from the MIRAGE paper" loading="lazy" /></a>
-          <figcaption>
-            <a href="https://arxiv.org/abs/2603.21687">MIRAGE: The Illusion of Visual Understanding</a> — frontier
-            vision-language models will confidently describe and "diagnose" medical images they were never shown.
-            <span class="work__links"><a href="https://arxiv.org/abs/2603.21687">arXiv</a> · <a href="https://github.com/masadi-99/MIRAGE">code</a></span>
-          </figcaption>
-        </figure>
-        <figure class="work__item">
-          <a href="https://arxiv.org/abs/2603.22179"><img src="assets/marcus-fig1.jpeg" alt="System overview from the MARCUS paper" loading="lazy" /></a>
-          <figcaption>
-            <a href="https://arxiv.org/abs/2603.22179">MARCUS</a> — an agentic model that reads and reasons over
-            ECG, echocardiography, and cardiac MRI for cardiac diagnosis and management.
-            <span class="work__links"><a href="https://arxiv.org/abs/2603.22179">arXiv</a> · <a href="https://github.com/AshleyLab/MARCUS">code</a></span>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
+      <section class="block" id="news">
+        <h2 class="block__label"><span class="block__num">02</span>News</h2>
+        <ul class="entries">
+          <li class="entry">
+            <span class="entry__date">Apr 2026</span>
+            <span class="entry__body">MIRAGE was covered by <a href="https://fortune.com/2026/03/31/ai-mirages-alien-machine-brains-anthropic-leaks/">Fortune</a>, <a href="https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings">Live Science</a>, and <a href="https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see">Futurism</a>, among other outlets.</span>
+          </li>
+          <li class="entry">
+            <span class="entry__date">Mar 2026</span>
+            <span class="entry__body">Preprints for MIRAGE and MARCUS are online.</span>
+          </li>
+          <li class="entry">
+            <span class="entry__date">2025</span>
+            <span class="entry__body">I joined the inaugural cohort of <a href="https://datascience.stanford.edu/about/people/amazon-ai-phd-fellows">Amazon AI PhD Fellows</a> and became a <a href="https://hai.stanford.edu/people/mohammad-asadi">Stanford HAI Graduate Fellow</a>.</span>
+          </li>
+          <li class="entry">
+            <span class="entry__date">Feb 2024</span>
+            <span class="entry__body">Our project <em>Healthiator</em> won Fetch.ai's "Smartest AI Agent" prize at <a href="https://devpost.com/software/healthiator">TreeHacks</a>.</span>
+          </li>
+        </ul>
+      </section>
 
-    <!-- ===================== NEWS ===================== -->
-    <section class="block" id="news">
-      <h2 class="block__label">News</h2>
-      <ul class="entries">
-        <li class="entry">
-          <span class="entry__date">Apr 2026</span>
-          <span class="entry__body">MIRAGE was covered by <a href="https://fortune.com/2026/03/31/ai-mirages-alien-machine-brains-anthropic-leaks/">Fortune</a>, <a href="https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings">Live Science</a>, and <a href="https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see">Futurism</a>, among other outlets.</span>
-        </li>
-        <li class="entry">
-          <span class="entry__date">Mar 2026</span>
-          <span class="entry__body">Preprints for MIRAGE and MARCUS are online.</span>
-        </li>
-        <li class="entry">
-          <span class="entry__date">2025</span>
-          <span class="entry__body">I joined the inaugural cohort of <a href="https://datascience.stanford.edu/about/people/amazon-ai-phd-fellows">Amazon AI PhD Fellows</a> and became a <a href="https://hai.stanford.edu/people/mohammad-asadi">Stanford HAI Graduate Fellow</a>.</span>
-        </li>
-        <li class="entry">
-          <span class="entry__date">Feb 2024</span>
-          <span class="entry__body">Our project <em>Healthiator</em> won Fetch.ai's "Smartest AI Agent" prize at <a href="https://devpost.com/software/healthiator">TreeHacks</a>.</span>
-        </li>
-      </ul>
-    </section>
+      <section class="block" id="publications">
+        <h2 class="block__label"><span class="block__num">03</span>Publications</h2>
+        <p class="block__note">Full list on <a href="https://scholar.google.com/citations?user=cRuOHB0AAAAJ&hl=en">Google Scholar</a>. * denotes equal contribution.</p>
+        <ul class="pubs">
 
-    <!-- ===================== PUBLICATIONS ===================== -->
-    <section class="block" id="publications">
-      <h2 class="block__label">Publications</h2>
-      <p class="block__note">Full list on <a href="https://scholar.google.com/citations?user=cRuOHB0AAAAJ&hl=en">Google Scholar</a>. * denotes equal contribution.</p>
-      <ul class="pubs">
+          <li class="pub">
+            <a class="pub__thumb" href="https://arxiv.org/abs/2603.21687"><img src="assets/mirage-x1.png" alt="MIRAGE figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://arxiv.org/abs/2603.21687">MIRAGE: The Illusion of Visual Understanding</a></span>
+              <span class="pub__authors"><strong>M. Asadi</strong>*, J. W. O'Sullivan, F. Cao, T. Nedaee, K. Rajabalifardi, F.-F. Li, E. Adeli, E. Ashley</span>
+              <span class="pub__venue">arXiv preprint, 2026 · <a href="https://github.com/masadi-99/MIRAGE">code</a></span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://arxiv.org/abs/2603.21687"><img src="assets/mirage-x1.png" alt="MIRAGE figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://arxiv.org/abs/2603.21687">MIRAGE: The Illusion of Visual Understanding</a></span>
-            <span class="pub__authors"><strong>M. Asadi</strong>*, J. W. O'Sullivan, F. Cao, T. Nedaee, K. Rajabalifardi, F.-F. Li, E. Adeli, E. Ashley</span>
-            <span class="pub__venue">arXiv preprint, 2026 · <a href="https://github.com/masadi-99/MIRAGE">code</a></span>
-          </div>
-        </li>
+          <li class="pub">
+            <a class="pub__thumb" href="https://arxiv.org/abs/2603.22179"><img src="assets/marcus-fig1.jpeg" alt="MARCUS figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://arxiv.org/abs/2603.22179">MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management</a></span>
+              <span class="pub__authors">J. W. O'Sullivan*, <strong>M. Asadi</strong>*, L. Elbe, A. Chaudhari, T. Nedaee, F. Haddad, M. Salerno, F.-F. Li, E. Adeli, R. Arnaout, E. A. Ashley</span>
+              <span class="pub__venue">arXiv preprint, 2026 · <a href="https://github.com/AshleyLab/MARCUS">code</a></span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://arxiv.org/abs/2603.22179"><img src="assets/marcus-fig1.jpeg" alt="MARCUS figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://arxiv.org/abs/2603.22179">MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management</a></span>
-            <span class="pub__authors">J. W. O'Sullivan*, <strong>M. Asadi</strong>*, L. Elbe, A. Chaudhari, T. Nedaee, F. Haddad, M. Salerno, F.-F. Li, E. Adeli, R. Arnaout, E. A. Ashley</span>
-            <span class="pub__venue">arXiv preprint, 2026 · <a href="https://github.com/AshleyLab/MARCUS">code</a></span>
-          </div>
-        </li>
+          <li class="pub">
+            <a class="pub__thumb" href="https://arxiv.org/abs/2603.21693"><img src="assets/thumb-cebag.png" alt="CEBaG figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://arxiv.org/abs/2603.21693">Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain</a></span>
+              <span class="pub__authors"><strong>M. Asadi</strong>, T. Nedaee, J. W. O'Sullivan, E. Ashley, E. Adeli</span>
+              <span class="pub__venue">arXiv preprint, 2026</span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://arxiv.org/abs/2603.21693"><img src="assets/thumb-cebag.png" alt="CEBaG figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://arxiv.org/abs/2603.21693">Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain</a></span>
-            <span class="pub__authors"><strong>M. Asadi</strong>, T. Nedaee, J. W. O'Sullivan, E. Ashley, E. Adeli</span>
-            <span class="pub__venue">arXiv preprint, 2026</span>
-          </div>
-        </li>
+          <li class="pub">
+            <a class="pub__thumb" href="https://www.medrxiv.org/content/10.64898/2026.03.14.26348388v1"><img src="assets/thumb-echoatlas.jpg" alt="EchoAtlas figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://www.medrxiv.org/content/10.64898/2026.03.14.26348388v1">EchoAtlas: A Conversational, Multi-View Vision-Language Foundation Model for Echocardiography</a></span>
+              <span class="pub__authors">C.-J. Chao, <strong>M. Asadi</strong>, et al.</span>
+              <span class="pub__venue">medRxiv preprint, 2026</span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://www.medrxiv.org/content/10.64898/2026.03.14.26348388v1"><img src="assets/thumb-echoatlas.jpg" alt="EchoAtlas figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://www.medrxiv.org/content/10.64898/2026.03.14.26348388v1">EchoAtlas: A Conversational, Multi-View Vision-Language Foundation Model for Echocardiography</a></span>
-            <span class="pub__authors">C.-J. Chao, <strong>M. Asadi</strong>, et al.</span>
-            <span class="pub__venue">medRxiv preprint, 2026</span>
-          </div>
-        </li>
+          <li class="pub">
+            <a class="pub__thumb" href="https://www.nature.com/articles/s41746-025-02140-w"><img src="assets/thumb-echograph.png" alt="EchoGraph figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://www.nature.com/articles/s41746-025-02140-w">EchoGraph: automated quality assessment of echocardiography reports</a></span>
+              <span class="pub__authors">C.-J. Chao, …, <strong>M. Asadi</strong>, …, F.-F. Li, E. Adeli, C. Langlotz</span>
+              <span class="pub__venue">npj Digital Medicine, 2025</span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://www.nature.com/articles/s41746-025-02140-w"><img src="assets/thumb-echograph.png" alt="EchoGraph figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://www.nature.com/articles/s41746-025-02140-w">EchoGraph: automated quality assessment of echocardiography reports</a></span>
-            <span class="pub__authors">C.-J. Chao, …, <strong>M. Asadi</strong>, …, F.-F. Li, E. Adeli, C. Langlotz</span>
-            <span class="pub__venue">npj Digital Medicine, 2025</span>
-          </div>
-        </li>
+          <li class="pub">
+            <a class="pub__thumb" href="https://openaccess.thecvf.com/content/ICCV2025W/DataCV/html/Zhang_Synthetic_Hands_Meet_Legacy_Data_A_Synthetic_Dataset_for_Structured_ICCVW_2025_paper.html"><img src="assets/thumb-t3d.png" alt="T3DGesture figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://openaccess.thecvf.com/content/ICCV2025W/DataCV/html/Zhang_Synthetic_Hands_Meet_Legacy_Data_A_Synthetic_Dataset_for_Structured_ICCVW_2025_paper.html">Synthetic Hands Meet Legacy Data: A Synthetic Dataset for Structured, Controllable, Multimodal Evaluation</a></span>
+              <span class="pub__authors">Y. Zhang, …, <strong>M. Asadi</strong>, …, T. Kim</span>
+              <span class="pub__venue">ICCV 2025 Workshops (DataCV)</span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://openaccess.thecvf.com/content/ICCV2025W/DataCV/html/Zhang_Synthetic_Hands_Meet_Legacy_Data_A_Synthetic_Dataset_for_Structured_ICCVW_2025_paper.html"><img src="assets/thumb-t3d.png" alt="T3DGesture figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://openaccess.thecvf.com/content/ICCV2025W/DataCV/html/Zhang_Synthetic_Hands_Meet_Legacy_Data_A_Synthetic_Dataset_for_Structured_ICCVW_2025_paper.html">Synthetic Hands Meet Legacy Data: A Synthetic Dataset for Structured, Controllable, Multimodal Evaluation</a></span>
-            <span class="pub__authors">Y. Zhang, …, <strong>M. Asadi</strong>, …, T. Kim</span>
-            <span class="pub__venue">ICCV 2025 Workshops (DataCV)</span>
-          </div>
-        </li>
+          <li class="pub">
+            <a class="pub__thumb" href="https://arxiv.org/abs/2212.01133"><img src="assets/thumb-ripple.png" alt="Ripple figure" loading="lazy" /></a>
+            <div class="pub__text">
+              <span class="pub__title"><a href="https://arxiv.org/abs/2212.01133">Ripple: Concept-Based Interpretation for Raw Time Series Models in Education</a></span>
+              <span class="pub__authors"><strong>M. Asadi</strong>, V. Swamy, J. Frej, J. Vignoud, M. Marras, T. Käser</span>
+              <span class="pub__venue">AAAI 2023 · <a href="https://github.com/epfl-ml4ed/ripple">code</a></span>
+            </div>
+          </li>
 
-        <li class="pub">
-          <a class="pub__thumb" href="https://arxiv.org/abs/2212.01133"><img src="assets/thumb-ripple.png" alt="Ripple figure" loading="lazy" /></a>
-          <div class="pub__text">
-            <span class="pub__title"><a href="https://arxiv.org/abs/2212.01133">Ripple: Concept-Based Interpretation for Raw Time Series Models in Education</a></span>
-            <span class="pub__authors"><strong>M. Asadi</strong>, V. Swamy, J. Frej, J. Vignoud, M. Marras, T. Käser</span>
-            <span class="pub__venue">AAAI 2023 · <a href="https://github.com/epfl-ml4ed/ripple">code</a></span>
-          </div>
-        </li>
+        </ul>
+      </section>
 
-      </ul>
-    </section>
+      <section class="block" id="press">
+        <h2 class="block__label"><span class="block__num">04</span>In the news</h2>
+        <p class="block__note">Selected coverage of MIRAGE. It was also covered in German, French, and Chinese.</p>
+        <ul class="press">
+          <li><span class="press__outlet">Fortune</span><a href="https://fortune.com/2026/03/31/ai-mirages-alien-machine-brains-anthropic-leaks/">AI's ability to see "mirages" shows how alien machine brains really are</a></li>
+          <li><span class="press__outlet">Live Science</span><a href="https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings">AI "mirages" mean tools used to analyze medical scans could fabricate their findings</a> <span class="press__note">(interview)</span></li>
+          <li><span class="press__outlet">Futurism</span><a href="https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see">Frontier AI models are doing something bizarre when asked to diagnose medical X-rays</a> <span class="press__note">(interview)</span></li>
+          <li><span class="press__outlet">The Decoder</span><a href="https://the-decoder.com/ai-models-confidently-describe-images-they-never-saw-and-benchmarks-fail-to-catch-it/">AI models confidently describe images they never saw — and benchmarks fail to catch it</a></li>
+          <li><span class="press__outlet">Tech Xplore</span><a href="https://techxplore.com/news/2026-04-ai-fake-visual-images-dont.html">AI models can fake visual understanding of images that don't exist</a></li>
+        </ul>
+      </section>
 
-    <!-- ===================== PRESS ===================== -->
-    <section class="block" id="press">
-      <h2 class="block__label">In the news</h2>
-      <p class="block__note">Selected coverage of MIRAGE. It was also covered in German, French, and Chinese.</p>
-      <ul class="press">
-        <li><span class="press__outlet">Fortune</span><a href="https://fortune.com/2026/03/31/ai-mirages-alien-machine-brains-anthropic-leaks/">AI's ability to see "mirages" shows how alien machine brains really are</a></li>
-        <li><span class="press__outlet">Live Science</span><a href="https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings">AI "mirages" mean tools used to analyze medical scans could fabricate their findings</a> <span class="press__note">(interview)</span></li>
-        <li><span class="press__outlet">Futurism</span><a href="https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see">Frontier AI models are doing something bizarre when asked to diagnose medical X-rays</a> <span class="press__note">(interview)</span></li>
-        <li><span class="press__outlet">The Decoder</span><a href="https://the-decoder.com/ai-models-confidently-describe-images-they-never-saw-and-benchmarks-fail-to-catch-it/">AI models confidently describe images they never saw — and benchmarks fail to catch it</a></li>
-        <li><span class="press__outlet">Tech Xplore</span><a href="https://techxplore.com/news/2026-04-ai-fake-visual-images-dont.html">AI models can fake visual understanding of images that don't exist</a></li>
-      </ul>
-    </section>
+      <section class="block" id="awards">
+        <h2 class="block__label"><span class="block__num">05</span>Awards &amp; fellowships</h2>
+        <ul class="entries">
+          <li class="entry"><span class="entry__date">2025</span><span class="entry__body">Amazon AI PhD Fellowship</span></li>
+          <li class="entry"><span class="entry__date">2025</span><span class="entry__body">Stanford HAI Graduate Fellowship</span></li>
+          <li class="entry"><span class="entry__date">2024</span><span class="entry__body">Fetch.ai "Smartest AI Agent" Prize, TreeHacks</span></li>
+        </ul>
+      </section>
 
-    <!-- ===================== AWARDS ===================== -->
-    <section class="block" id="awards">
-      <h2 class="block__label">Awards &amp; fellowships</h2>
-      <ul class="entries">
-        <li class="entry"><span class="entry__date">2025</span><span class="entry__body">Amazon AI PhD Fellowship</span></li>
-        <li class="entry"><span class="entry__date">2025</span><span class="entry__body">Stanford HAI Graduate Fellowship</span></li>
-        <li class="entry"><span class="entry__date">2024</span><span class="entry__body">Fetch.ai "Smartest AI Agent" Prize, TreeHacks</span></li>
-      </ul>
-    </section>
+      <footer class="foot">
+        <p>Mohammad Asadi · Stanford University</p>
+      </footer>
 
-    <footer class="foot">
-      <p>Mohammad Asadi · Stanford University</p>
-    </footer>
-
+    </main>
   </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
