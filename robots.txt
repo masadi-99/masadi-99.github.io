@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://masadi-99.github.io/sitemap.xml
