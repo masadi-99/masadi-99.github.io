@@ -95,7 +95,7 @@ content:
       - { name: outlet, label: Outlet, type: string }
       - { name: title, label: Headline, type: string }
       - { name: url, label: Article URL, type: string }
-      - { name: logo, label: Logo file (in assets/img/press), type: string }
+      - { name: image, label: Article image (in assets/img/press), type: string }
       - { name: interview, label: Interview, type: boolean, default: false }
 
   - name: publications
