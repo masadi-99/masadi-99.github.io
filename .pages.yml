@@ -1,0 +1,80 @@
+# Pages CMS configuration — admin panel at https://app.pagescms.org
+# Sign in with GitHub, open this repo, and edit content in a web UI.
+# (This file is only read by Pages CMS; it does not affect the Jekyll build.)
+
+media:
+  input: assets/img
+  output: /assets/img
+
+content:
+  - name: news
+    label: News
+    type: collection
+    path: _news
+    filename: "{fields.date}-news.md"
+    view:
+      fields: [date, body]
+      primary: date
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: layout, label: Layout, type: string, default: post, hidden: true }
+      - { name: date, label: Date, type: date, options: { format: "yyyy-MM-dd" } }
+      - { name: inline, label: Short inline update, type: boolean, default: true }
+      - { name: related_posts, label: Related posts, type: boolean, default: false, hidden: true }
+      - { name: body, label: Update, type: rich-text }
+
+  - name: about
+    label: About / Bio
+    type: file
+    path: _pages/about.md
+    fields:
+      - { name: layout, label: Layout, type: string, default: about, hidden: true }
+      - { name: title, label: Title, type: string, hidden: true }
+      - { name: permalink, label: Permalink, type: string, hidden: true }
+      - { name: subtitle, label: Subtitle (under your name), type: string }
+      - name: profile
+        label: Profile
+        type: object
+        fields:
+          - { name: align, label: Align, type: string, default: right, hidden: true }
+          - { name: image, label: Photo filename (in assets/img), type: string }
+          - { name: image_circular, label: Circular photo, type: boolean, default: false }
+          - { name: more_info, label: Info under photo (HTML), type: text }
+      - { name: selected_papers, label: Show selected papers, type: boolean, default: true, hidden: true }
+      - { name: social, label: Show social icons, type: boolean, default: true, hidden: true }
+      - name: announcements
+        label: News block
+        type: object
+        fields:
+          - { name: enabled, label: Enabled, type: boolean, default: true, hidden: true }
+          - { name: scrollable, label: Scrollable, type: boolean, default: true, hidden: true }
+          - { name: limit, label: Limit, type: number, default: 5, hidden: true }
+      - name: latest_posts
+        label: Latest posts block
+        type: object
+        fields:
+          - { name: enabled, label: Enabled, type: boolean, default: false, hidden: true }
+      - { name: body, label: Biography, type: rich-text }
+
+  - name: cv
+    label: CV page
+    type: file
+    path: _pages/cv.md
+    fields:
+      - { name: layout, label: Layout, type: string, default: page, hidden: true }
+      - { name: permalink, label: Permalink, type: string, default: /cv/, hidden: true }
+      - { name: title, label: Title, type: string, default: cv, hidden: true }
+      - { name: nav, label: Show in nav, type: boolean, default: true, hidden: true }
+      - { name: nav_order, label: Nav order, type: number, default: 4, hidden: true }
+      - { name: description, label: Description, type: string }
+      - { name: body, label: CV content, type: rich-text }
+
+  - name: publications
+    label: Publications (BibTeX)
+    type: file
+    path: _bibliography/papers.bib
+    fields:
+      - { name: body, label: BibTeX entries, type: code }

@@ -1,15 +1,7 @@
+---
+permalink: /robots.txt
+---
 User-agent: *
-Allow: /
+Disallow:
 
-# Be explicit that AI crawlers are welcome — the whole point of this site
-# is to be findable by search engines and AI models.
-User-agent: GPTBot
-Allow: /
-User-agent: Google-Extended
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-
-Sitemap: https://masadi-99.github.io/sitemap.xml
+Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
