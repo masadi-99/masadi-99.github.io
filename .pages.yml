@@ -72,6 +72,19 @@ content:
       - { name: description, label: Description, type: string }
       - { name: body, label: CV content, type: rich-text }
 
+  - name: press
+    label: In the press
+    type: file
+    path: _pages/press.md
+    fields:
+      - { name: layout, label: Layout, type: string, default: page, hidden: true }
+      - { name: permalink, label: Permalink, type: string, default: /press/, hidden: true }
+      - { name: title, label: Title, type: string, default: press, hidden: true }
+      - { name: nav, label: Show in nav, type: boolean, default: true, hidden: true }
+      - { name: nav_order, label: Nav order, type: number, default: 3, hidden: true }
+      - { name: description, label: Description, type: string }
+      - { name: body, label: Coverage list, type: rich-text }
+
   - name: publications
     label: Publications (BibTeX)
     type: file
