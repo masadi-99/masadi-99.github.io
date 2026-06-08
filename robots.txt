@@ -1,4 +1,24 @@
 User-agent: *
 Disallow:
 
+# AI crawlers / answer engines are explicitly welcome — this site exists to be found.
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://masadi-99.github.io/sitemap.xml
