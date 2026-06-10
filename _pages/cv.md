@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-description: "CV of Mohammad Asadi, Stanford EE PhD student: education, experience, awards, and patents."
+description: "CV of Mohammad Asadi, PhD student in Electrical Engineering at Stanford University: education, experience, awards, fellowships, and patents."
 last_modified_at: 2026-06-09
 ---
 

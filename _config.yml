@@ -9,7 +9,7 @@ last_name: Asadi
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: >- # the ">-" symbol folds newlines and strips the trailing one (keeps JSON-LD valid)
-  Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE, co-first author of MARCUS; Amazon AI PhD Fellow and Stanford HAI Graduate Fellow.
+  Mohammad Asadi, Stanford EE PhD student working on multimodal AI for medicine. First author of MIRAGE, co-first author of MARCUS; Amazon AI PhD Fellow.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

@@ -3,7 +3,7 @@ layout: page
 permalink: /marcus/
 title: MARCUS
 nav: false
-description: "MARCUS, co-first-authored by Mohammad Asadi at Stanford: an agentic, multimodal vision-language model that reads ECG, echocardiography, and cardiac MRI for cardiac diagnosis and management."
+description: "MARCUS, co-first-authored by Mohammad Asadi at Stanford: an agentic multimodal model that reads ECG, echo, and cardiac MRI for cardiac diagnosis."
 last_modified_at: 2026-06-09
 ---
 

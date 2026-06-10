@@ -3,7 +3,7 @@ layout: page
 permalink: /mirage/
 title: MIRAGE
 nav: false
-description: "MIRAGE: The Illusion of Visual Understanding, by Mohammad Asadi and colleagues at Stanford. Frontier vision-language models confidently describe and 'diagnose' medical images they were never shown (mirage reasoning)."
+description: "MIRAGE, a Stanford study first-authored by Mohammad Asadi: frontier vision-language models confidently 'diagnose' medical images they were never shown."
 last_modified_at: 2026-06-09
 ---
 

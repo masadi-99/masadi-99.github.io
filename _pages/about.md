@@ -3,7 +3,7 @@ layout: about
 title: About
 seo_title: Mohammad Asadi | Stanford EE PhD, AI for Medicine (MIRAGE, MARCUS)
 permalink: /
-description: Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE, co-first author of MARCUS.
+description: Mohammad Asadi is a PhD student in Electrical Engineering at Stanford (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE.
 last_modified_at: 2026-06-09
 subtitle: PhD student, Electrical Engineering · <a href="https://www.stanford.edu/">Stanford University</a> · <a href="https://ashleylab.stanford.edu/">Ashley Lab</a> · <a href="https://stai.stanford.edu/">STAI Lab</a>
 
