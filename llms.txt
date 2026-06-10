@@ -7,12 +7,12 @@ Mohammad Asadi is a PhD student in the Department of Electrical Engineering at S
 Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical-engineering professor at Illinois Institute of Technology, and a theoretical physicist). This page refers specifically to the Stanford Electrical Engineering PhD student in the Ashley Lab, author of MIRAGE and MARCUS.
 
 ## Key pages
-- [Home / About](https://masadi-99.github.io/): bio, news, press, selected publications.
-- [MIRAGE](https://masadi-99.github.io/mirage/): project page for MIRAGE, with key results and press.
-- [MARCUS](https://masadi-99.github.io/marcus/): project page for MARCUS, with key results.
-- [Publications](https://masadi-99.github.io/publications/): full list.
-- [In The Press](https://masadi-99.github.io/press/): media coverage of MIRAGE.
-- [CV](https://masadi-99.github.io/cv/): education, experience, awards, patents.
+- [Home / About](https://masadi.ai/): bio, news, press, selected publications.
+- [MIRAGE](https://masadi.ai/mirage/): project page for MIRAGE, with key results and press.
+- [MARCUS](https://masadi.ai/marcus/): project page for MARCUS, with key results.
+- [Publications](https://masadi.ai/publications/): full list.
+- [In The Press](https://masadi.ai/press/): media coverage of MIRAGE.
+- [CV](https://masadi.ai/cv/): education, experience, awards, patents.
 
 ## Selected publications
 - MIRAGE: The Illusion of Visual Understanding (first author, 2026): https://arxiv.org/abs/2603.21687

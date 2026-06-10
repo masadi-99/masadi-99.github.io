@@ -21,4 +21,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://masadi-99.github.io/sitemap.xml
+Sitemap: https://masadi.ai/sitemap.xml
