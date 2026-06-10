@@ -1,13 +1,17 @@
 ---
 layout: about
 title: About
+seo_title: Mohammad Asadi | Stanford EE PhD, AI for Medicine (MIRAGE, MARCUS)
 permalink: /
+description: Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE, co-first author of MARCUS.
+last_modified_at: 2026-06-09
 subtitle: PhD student, Electrical Engineering · <a href="https://www.stanford.edu/">Stanford University</a> · <a href="https://ashleylab.stanford.edu/">Ashley Lab</a> · <a href="https://stai.stanford.edu/">STAI Lab</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
+  alt: Mohammad Asadi, PhD student in Electrical Engineering at Stanford University
   more_info: >
     <p>masadi [at] stanford.edu</p>
 
@@ -37,23 +41,42 @@ MIRAGE was covered internationally. A few pieces:
 
 [See all coverage →](/press/)
 
+<p style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 2rem;">
+  Not to be confused with other researchers named Mohammad Asadi, including the professor of chemical engineering at Illinois Institute of Technology. This site is about the Stanford Electrical Engineering PhD student working on AI for medicine.
+</p>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "dateModified": "2026-06-08",
+  "dateCreated": "2026-06-07",
+  "dateModified": "2026-06-09",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://masadi-99.github.io/#mohammad-asadi",
     "name": "Mohammad Asadi",
     "givenName": "Mohammad",
     "familyName": "Asadi",
+    "alternateName": "M. Asadi",
     "jobTitle": "PhD Student in Electrical Engineering",
     "description": "Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. He is first author of MIRAGE (covered by Fortune, Live Science, and Futurism) and co-first author of MARCUS. He is an Amazon AI PhD Fellow and a Stanford HAI Graduate Fellow.",
+    "disambiguatingDescription": "Stanford PhD student researching AI for medicine; not the professor of chemical engineering at Illinois Institute of Technology",
     "url": "https://masadi-99.github.io/",
     "image": "https://masadi-99.github.io/assets/img/prof_pic.jpg",
     "email": "mailto:masadi@stanford.edu",
-    "affiliation": { "@type": "CollegeOrUniversity", "name": "Stanford University", "department": "Department of Electrical Engineering" },
+    "identifier": [
+      { "@type": "PropertyValue", "propertyID": "Google Scholar", "value": "cRuOHB0AAAAJ" }
+    ],
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Stanford University",
+      "department": "Department of Electrical Engineering",
+      "url": "https://www.stanford.edu",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q41506",
+        "https://ror.org/00f54p054"
+      ]
+    },
     "worksFor": { "@type": "Organization", "name": "Ashley Lab, Stanford University", "url": "https://ashleylab.stanford.edu/" },
     "alumniOf": [
       { "@type": "CollegeOrUniversity", "name": "Stanford University" },

@@ -4,7 +4,8 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-description: Education, experience, awards, and patents.
+description: "CV of Mohammad Asadi, Stanford EE PhD student: education, experience, awards, and patents."
+last_modified_at: 2026-06-09
 ---
 
 ## Education

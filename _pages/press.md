@@ -4,7 +4,8 @@ permalink: /press/
 title: Press
 nav: true
 nav_order: 3
-description: Media coverage of MIRAGE.
+description: "Press coverage of Mohammad Asadi's MIRAGE paper in Fortune, Live Science, Futurism, and international outlets."
+last_modified_at: 2026-06-09
 ---
 
 Media coverage of **MIRAGE**.

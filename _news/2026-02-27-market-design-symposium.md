@@ -3,5 +3,6 @@ layout: post
 date: 2026-02-27
 inline: true
 related_posts: false
+description: "Mohammad Asadi served on the poster committee for the Market Design in the Age of AI symposium at Stanford."
 ---
 I served on the poster committee for [Market Design in the Age of AI](https://datascience.stanford.edu/events/computational-market-design-center/market-design-age-ai).

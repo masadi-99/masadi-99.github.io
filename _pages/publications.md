@@ -2,9 +2,10 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications by category, in reverse chronological order.
+description: "Publications by Mohammad Asadi, Stanford EE PhD student: MIRAGE, MARCUS, and multimodal AI for medicine."
 nav: true
 nav_order: 2
+last_modified_at: 2026-06-09
 ---
 
 <!-- _pages/publications.md -->
