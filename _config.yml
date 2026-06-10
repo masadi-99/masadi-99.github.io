@@ -179,7 +179,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false # news items render inline on the homepage and /news/; no standalone pages
   projects:
     output: true
   teachings:
