@@ -1,4 +1,4 @@
-# [masadi-99.github.io](https://masadi-99.github.io)
+# [masadi.ai](https://masadi.ai)
 
 Source code for my personal academic website.
 
