@@ -8,6 +8,8 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 
 ## Key pages
 - [Home / About](https://masadi-99.github.io/): bio, news, press, selected publications.
+- [MIRAGE](https://masadi-99.github.io/mirage/): project page for MIRAGE, with key results and press.
+- [MARCUS](https://masadi-99.github.io/marcus/): project page for MARCUS, with key results.
 - [Publications](https://masadi-99.github.io/publications/): full list.
 - [In The Press](https://masadi-99.github.io/press/): media coverage of MIRAGE.
 - [CV](https://masadi-99.github.io/cv/): education, experience, awards, patents.
