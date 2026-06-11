@@ -4,11 +4,11 @@ permalink: /press/
 title: Press
 nav: true
 nav_order: 3
-description: "Press coverage of Mohammad Asadi's MIRAGE paper in Fortune, Live Science, Futurism, and international outlets."
-last_modified_at: 2026-06-09
+description: "Press coverage of Mohammad Asadi's research, including the MIRAGE paper, in Fortune, Live Science, Futurism, and international outlets."
+last_modified_at: 2026-06-10
 ---
 
-Media coverage of **MIRAGE**.
+Media coverage of my research. Coverage to date centers on [MIRAGE](/mirage/).
 
 {% include press_list.liquid %}
 
@@ -23,7 +23,7 @@ Media coverage of **MIRAGE**.
 **International**
 
 - [The Decoder](https://the-decoder.de/mirage-effekt-ki-modelle-diagnostizieren-krankheiten-auf-bildern-die-nie-existierten/) (German)
-- [Hardwarewartung](https://www.hardwarewartung.com/en/the-mirage-effect-when-ai-is-inventing-images/) (German)
+- [Hardwarewartung](https://www.hardwarewartung.com/der-mirage-effekt-wenn-kis-bei-der-bildanalyse-fata-morganas-sehen/) (German)
 - [Génération-NT](https://www.generation-nt.com/actualites/ia-effet-mirage-diagnostic-medical-sante-stanford-2073832) (French)
 - [21News](https://www.21news.be/le-mirage-de-lia-medicale-des-machines-pourraient-poser-des-diagnostics-sans-reellement-voir-les-images-alerte-une-etude-de-stanford/) (Belgium)
 - [Le Journal de l'Économie](https://www.lodj.ma/Des-chercheurs-alertent-sur-l-effet-Mirage--un-nouveau-defaut-de-l-IA_a168889.html) (Morocco)

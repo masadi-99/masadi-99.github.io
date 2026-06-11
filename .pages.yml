@@ -1,6 +1,6 @@
-# Pages CMS configuration — admin panel at https://app.pagescms.org
+# Pages CMS configuration (admin panel at https://app.pagescms.org)
 # Sign in with GitHub, open this repo, and edit content in a web UI.
-# (This file is only read by Pages CMS; it does not affect the Jekyll build.)
+# This file is only read by Pages CMS; it does not affect the Jekyll build.
 
 media:
   input: assets/img
@@ -11,7 +11,7 @@ content:
     label: News
     type: collection
     path: _news
-    filename: "{fields.date}-news.md"
+    filename: "{fields.date}-{fields.slug}.md"
     view:
       fields: [date, body]
       primary: date
@@ -22,19 +22,25 @@ content:
     fields:
       - { name: layout, label: Layout, type: string, default: post, hidden: true }
       - { name: date, label: Date, type: date, options: { format: "yyyy-MM-dd" } }
+      - { name: slug, label: Slug (short-kebab-name for the filename), type: string }
       - { name: inline, label: Short inline update, type: boolean, default: true }
       - { name: related_posts, label: Related posts, type: boolean, default: false, hidden: true }
+      - { name: description, label: One-line summary (for search engines), type: string }
       - { name: body, label: Update, type: rich-text }
 
   - name: about
     label: About / Bio
+    description: The homepage bio text. Press, news, publications, and patents sections render automatically below it.
     type: file
     path: _pages/about.md
     fields:
       - { name: layout, label: Layout, type: string, default: about, hidden: true }
-      - { name: title, label: Title, type: string, hidden: true }
-      - { name: permalink, label: Permalink, type: string, hidden: true }
-      - { name: subtitle, label: Subtitle (under your name), type: string }
+      - { name: title, label: Title, type: string, default: About, hidden: true }
+      - { name: seo_title, label: Browser/search title for the homepage, type: string }
+      - { name: permalink, label: Permalink, type: string, default: /, hidden: true }
+      - { name: description, label: Meta description (120-160 chars), type: string }
+      - { name: last_modified_at, label: Last modified (bump on real edits), type: date, options: { format: "yyyy-MM-dd" } }
+      - { name: subtitle, label: Subtitle (under your name, HTML), type: string }
       - name: profile
         label: Profile
         type: object
@@ -42,6 +48,7 @@ content:
           - { name: align, label: Align, type: string, default: right, hidden: true }
           - { name: image, label: Photo filename (in assets/img), type: string }
           - { name: image_circular, label: Circular photo, type: boolean, default: false }
+          - { name: alt, label: Photo alt text, type: string }
           - { name: more_info, label: Info under photo (HTML), type: text }
       - { name: selected_papers, label: Show selected papers, type: boolean, default: true, hidden: true }
       - { name: social, label: Show social icons, type: boolean, default: true, hidden: true }
@@ -57,36 +64,21 @@ content:
         type: object
         fields:
           - { name: enabled, label: Enabled, type: boolean, default: false, hidden: true }
-      - { name: body, label: Biography, type: rich-text }
+      - { name: body, label: Biography (plain text and links only), type: rich-text }
 
-  - name: cv
-    label: CV page
+  - name: patents
+    label: Patents
+    description: Shown on the homepage. The CV page lists them too; keep the wording identical there when editing.
     type: file
-    path: _pages/cv.md
+    path: _data/patents.yml
+    list: true
     fields:
-      - { name: layout, label: Layout, type: string, default: page, hidden: true }
-      - { name: permalink, label: Permalink, type: string, default: /cv/, hidden: true }
-      - { name: title, label: Title, type: string, default: cv, hidden: true }
-      - { name: nav, label: Show in nav, type: boolean, default: true, hidden: true }
-      - { name: nav_order, label: Nav order, type: number, default: 4, hidden: true }
-      - { name: description, label: Description, type: string }
-      - { name: body, label: CV content, type: rich-text }
-
-  - name: press
-    label: In the press
-    type: file
-    path: _pages/press.md
-    fields:
-      - { name: layout, label: Layout, type: string, default: page, hidden: true }
-      - { name: permalink, label: Permalink, type: string, default: /press/, hidden: true }
-      - { name: title, label: Title, type: string, default: press, hidden: true }
-      - { name: nav, label: Show in nav, type: boolean, default: true, hidden: true }
-      - { name: nav_order, label: Nav order, type: number, default: 3, hidden: true }
-      - { name: description, label: Description, type: string }
-      - { name: body, label: Coverage list, type: rich-text }
+      - { name: title, label: Title, type: string }
+      - { name: detail, label: Detail (application number / status), type: string }
 
   - name: press_items
-    label: Press items (logos + links)
+    label: Press items (images + links)
+    description: Image files live in assets/img/press (each article's main image).
     type: file
     path: _data/press.yml
     list: true
@@ -97,6 +89,36 @@ content:
       - { name: url, label: Article URL, type: string }
       - { name: image, label: Article image (in assets/img/press), type: string }
       - { name: interview, label: Interview, type: boolean, default: false }
+
+  - name: cv
+    label: CV page
+    description: Markdown with a few Liquid tags; edited as code to keep them intact.
+    type: file
+    path: _pages/cv.md
+    fields:
+      - { name: layout, label: Layout, type: string, default: page, hidden: true }
+      - { name: permalink, label: Permalink, type: string, default: /cv/, hidden: true }
+      - { name: title, label: Title, type: string, default: CV, hidden: true }
+      - { name: nav, label: Show in nav, type: boolean, default: true, hidden: true }
+      - { name: nav_order, label: Nav order, type: number, default: 4, hidden: true }
+      - { name: description, label: Meta description (120-160 chars), type: string }
+      - { name: last_modified_at, label: Last modified (bump on real edits), type: date, options: { format: "yyyy-MM-dd" } }
+      - { name: body, label: CV content (markdown), type: code }
+
+  - name: press_page
+    label: Press page intro + more coverage
+    description: Contains a Liquid include; edited as code to keep it intact.
+    type: file
+    path: _pages/press.md
+    fields:
+      - { name: layout, label: Layout, type: string, default: page, hidden: true }
+      - { name: permalink, label: Permalink, type: string, default: /press/, hidden: true }
+      - { name: title, label: Title, type: string, default: Press, hidden: true }
+      - { name: nav, label: Show in nav, type: boolean, default: true, hidden: true }
+      - { name: nav_order, label: Nav order, type: number, default: 3, hidden: true }
+      - { name: description, label: Meta description (120-160 chars), type: string }
+      - { name: last_modified_at, label: Last modified (bump on real edits), type: date, options: { format: "yyyy-MM-dd" } }
+      - { name: body, label: Page content (markdown + liquid), type: code }
 
   - name: publications
     label: Publications (BibTeX)

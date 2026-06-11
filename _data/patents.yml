@@ -1,0 +1,6 @@
+# Patents. Single source of truth for the homepage Patents section.
+# (Also listed in _pages/cv.md; keep the wording identical when editing.)
+- title: System and Method for End-to-End Pipeline for Photo-Realistic 3D Motion Generation
+  detail: U.S. Patent Application US20260080600A1 (Samsung Electronics)
+- title: "MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management"
+  detail: U.S. patent application, in preparation

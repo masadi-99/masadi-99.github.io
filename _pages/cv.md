@@ -5,14 +5,14 @@ title: CV
 nav: true
 nav_order: 4
 description: "CV of Mohammad Asadi, PhD student in Electrical Engineering at Stanford University: education, experience, awards, fellowships, and patents."
-last_modified_at: 2026-06-09
+last_modified_at: 2026-06-10
 ---
 
 ## Education
 
-- **Ph.D., Electrical Engineering**, Stanford University (2023–present)
+- **PhD, Electrical Engineering**, Stanford University (2023–present)
   Ashley Lab. Advised by Euan Ashley; co-advised by Fei-Fei Li and Ehsan Adeli.
-- **B.Sc., Electrical Engineering**, Sharif University of Technology (2018–2022)
+- **BSc, Electrical Engineering**, Sharif University of Technology (2018–2022)
 
 ## Experience
 
@@ -39,4 +39,4 @@ last_modified_at: 2026-06-09
 See the [publications page](/publications/) for the full list. Highlights:
 
 - **MIRAGE: The Illusion of Visual Understanding**, first author, 2026.
-- **MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis**, co-first author, 2026.
+- **MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management**, co-first author, 2026.

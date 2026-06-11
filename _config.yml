@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Mohammad
 middle_name:
 last_name: Asadi
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: Email is the best way to reach me.
 description: >- # the ">-" symbol folds newlines and strips the trailing one (keeps JSON-LD valid)
   Mohammad Asadi, Stanford EE PhD student working on multimodal AI for medicine. First author of MIRAGE, co-first author of MARCUS; Amazon AI PhD Fellow.
 footer_text: >
@@ -121,8 +120,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Mohammad Asadi # blog_name will be displayed in your blog page
+blog_description: Notes and updates
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -151,7 +150,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -241,7 +240,6 @@ plugins:
   - jekyll-archives-v2
   - jekyll-cache-bust
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
@@ -359,7 +357,7 @@ scholar:
 enable_publication_badges:
   altmetric: false # Altmetric badge; off, renders nothing useful for arXiv-only preprints
   dimensions: false # Dimensions badge; off, renders nothing useful for arXiv-only preprints
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: false # Google Scholar badge; off until a citation-refresh workflow keyed to his real Scholar id exists
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
@@ -672,20 +670,4 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# (jsonresume demo data removed; the CV page is hand-written markdown)

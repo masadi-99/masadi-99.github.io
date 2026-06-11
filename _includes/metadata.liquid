@@ -56,7 +56,7 @@
 
 {% if site.serve_og_meta %}
   {%- capture og_title -%}
-    {%- if page.seo_title -%}{{ page.seo_title }}{%- elsif page.title and page.url != '/' -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}
+    {%- if page.seo_title -%}{{ page.seo_title }}{%- elsif page.title and page.url != '/' -%}{{ page.title }} | {{ title }}{%- else -%}{{ title }}{%- endif -%}
   {%- endcapture -%}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">

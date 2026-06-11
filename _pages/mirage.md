@@ -4,7 +4,7 @@ permalink: /mirage/
 title: MIRAGE
 nav: false
 description: "MIRAGE, a Stanford study first-authored by Mohammad Asadi: frontier vision-language models confidently 'diagnose' medical images they were never shown."
-last_modified_at: 2026-06-09
+last_modified_at: 2026-06-10
 ---
 
 <img src="/assets/img/publication_preview/mirage.png" alt="Results figure from MIRAGE: The Illusion of Visual Understanding" style="width:100%; border:1px solid var(--global-divider-color); border-radius:5px;" />
@@ -17,7 +17,7 @@ last_modified_at: 2026-06-09
 
 ## TL;DR
 
-MIRAGE is a 2026 study from Stanford, first-authored by Mohammad Asadi, showing that frontier vision-language models (GPT-5, Gemini-3-Pro, Claude Opus 4.5) confidently describe and "diagnose" medical images **they were never shown**. We call this **mirage reasoning**. The key numbers:
+MIRAGE is a 2026 study from Stanford, first-authored by Mohammad Asadi, showing that frontier vision-language models (GPT-5, Gemini 3 Pro, Claude Opus 4.5) confidently describe and "diagnose" medical images **they were never shown**. We call this **mirage reasoning**. The key numbers:
 
 - Models produced confident descriptions of visual details **more than 60% of the time** on average when no image was provided, and 90 to 100% of the time under certain prompting.
 - Models retained roughly **70 to 80% of their original benchmark accuracy with no images at all**.

@@ -2,7 +2,7 @@
 
 > PhD student in Electrical Engineering at Stanford University (Ashley Lab), working on multimodal AI for medicine. First author of MIRAGE; co-first author of MARCUS. Amazon AI PhD Fellow and Stanford HAI Graduate Fellow.
 
-Mohammad Asadi is a PhD student in the Department of Electrical Engineering at Stanford University, in the Ashley Lab. He is advised by Euan Ashley and co-advised by Fei-Fei Li and Ehsan Adeli. His research is multimodal vision-language AI for medicine (models that read and reason over ECG, echocardiography, and cardiac MRI) and the study of when frontier multimodal models fail. He is the first author of MIRAGE ("mirage reasoning": vision-language models confidently describe and diagnose medical images they were never shown), which was covered by Fortune, Live Science, and Futurism. He is co-first author of MARCUS, an agentic multimodal model for cardiac diagnosis. Before Stanford he worked on human-motion generation at Samsung and interpretable machine learning for education at EPFL, and earned a BSc in Electrical Engineering at Sharif University of Technology.
+Mohammad Asadi is a PhD student in the Department of Electrical Engineering at Stanford University, in the Ashley Lab. He is advised by Euan Ashley and co-advised by Fei-Fei Li and Ehsan Adeli. His research focuses on multimodal vision-language AI for medicine (models that read and reason over ECG, echocardiography, and cardiac MRI) and on where frontier multimodal models fail. He is the first author of MIRAGE ("mirage reasoning": vision-language models confidently describe and diagnose medical images they were never shown), which was covered by Fortune, Live Science, and Futurism. He is co-first author of MARCUS, an agentic multimodal model for cardiac diagnosis. Before Stanford he worked on human-motion generation at Samsung and interpretable machine learning for education at EPFL, and earned a BSc in Electrical Engineering at Sharif University of Technology.
 
 Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical-engineering professor at Illinois Institute of Technology, and a theoretical physicist). This page refers specifically to the Stanford Electrical Engineering PhD student in the Ashley Lab, author of MIRAGE and MARCUS.
 
@@ -11,7 +11,7 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 - [MIRAGE](https://masadi.ai/mirage/): project page for MIRAGE, with key results and press.
 - [MARCUS](https://masadi.ai/marcus/): project page for MARCUS, with key results.
 - [Publications](https://masadi.ai/publications/): full list.
-- [In The Press](https://masadi.ai/press/): media coverage of MIRAGE.
+- [In The Press](https://masadi.ai/press/): media coverage of his research.
 - [CV](https://masadi.ai/cv/): education, experience, awards, patents.
 
 ## Selected publications
