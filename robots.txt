@@ -1,7 +1,7 @@
 User-agent: *
 Disallow:
 
-# AI crawlers / answer engines are explicitly welcome — this site exists to be found.
+# AI crawlers / answer engines are explicitly welcome. This site exists to be found.
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot
