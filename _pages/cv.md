@@ -11,7 +11,7 @@ last_modified_at: 2026-06-10
 ## Education
 
 - **PhD, Electrical Engineering**, Stanford University (2023–present)
-  Ashley Lab. Advised by Euan Ashley; co-advised by Fei-Fei Li and Ehsan Adeli.
+  Ashley Lab and STAI Lab. Advised by Prof. Euan Ashley; co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli.
 - **BSc, Electrical Engineering**, Sharif University of Technology (2018–2022)
 
 ## Experience
