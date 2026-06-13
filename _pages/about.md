@@ -4,7 +4,7 @@ title: About
 seo_title: Mohammad Asadi | Stanford EE PhD Student | AI for Medicine
 permalink: /
 description: Mohammad Asadi is a PhD student in Electrical Engineering at Stanford (Ashley and STAI Labs), working on multimodal AI for medicine. First author of MIRAGE.
-last_modified_at: 2026-06-10
+last_modified_at: 2026-06-12
 subtitle: PhD student, Electrical Engineering · <a href="https://www.stanford.edu/">Stanford University</a> · <a href="https://ashleylab.stanford.edu/">Ashley Lab</a> · <a href="https://stai.stanford.edu/">STAI Lab</a>
 
 profile:
@@ -27,6 +27,6 @@ latest_posts:
   enabled: false
 ---
 
-I'm a PhD student in Electrical Engineering at Stanford, where I work in the [Ashley Lab](https://ashleylab.stanford.edu/) and the [STAI Lab](https://stai.stanford.edu/), advised by Prof. Euan Ashley and co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli. I build multimodal models for cardiology that read ECG, echocardiograms, and cardiac MRI, and I study where frontier multimodal models fail. In [MIRAGE](/mirage/), we found that they will confidently 'diagnose' medical images they were never shown.
+I'm a PhD student in Electrical Engineering at Stanford, where I work in the [Ashley Lab](https://ashleylab.stanford.edu/) and the [STAI Lab](https://stai.stanford.edu/), advised by Prof. [Euan Ashley](https://profiles.stanford.edu/euan-ashley) and co-advised by Prof. [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) and Prof. [Ehsan Adeli](https://profiles.stanford.edu/ehsan-adeli). I build multimodal models for cardiology that read ECG, echocardiograms, and cardiac MRI, and I study where frontier multimodal models fail. In [MIRAGE](/mirage/), we found that they will confidently 'diagnose' medical images they were never shown.
 
 Before Stanford, I worked on human-motion generation at Samsung and on interpretable machine learning for education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
