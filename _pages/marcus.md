@@ -4,10 +4,10 @@ permalink: /marcus/
 title: MARCUS
 nav: false
 description: "MARCUS, co-first-authored by Mohammad Asadi at Stanford: an agentic multimodal model that reads ECG, echo, and cardiac MRI for cardiac diagnosis."
-last_modified_at: 2026-06-09
+last_modified_at: 2026-06-12
 ---
 
-<img src="/assets/img/publication_preview/marcus.jpg" alt="System overview figure from the MARCUS paper" style="width:100%; border:1px solid var(--global-divider-color); border-radius:5px;" />
+<img src="/assets/img/marcus-hero.jpg" alt="System overview figure from the MARCUS paper" style="width:100%; border:1px solid var(--global-divider-color); border-radius:5px;" />
 
 **MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management**
 <br/>Mohammad Asadi<sup>*</sup>, Jack W. O'Sullivan<sup>*</sup>, Lennart Elbe, Akshay Chaudhari, Tahoura Nedaee, Francois Haddad, Michael Salerno, Fei-Fei Li, Ehsan Adeli, Rima Arnaout, Euan A. Ashley · arXiv, 2026
@@ -46,7 +46,7 @@ A trustworthy cardiology assistant has to combine signals and images the way a c
   "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.48550/arXiv.2603.22179" },
   "datePublished": "2026-03-23",
   "inLanguage": "en",
-  "image": "https://masadi.ai/assets/img/publication_preview/marcus.jpg",
+  "image": "https://masadi.ai/assets/img/marcus-hero.jpg",
   "author": [
     { "@type": "Person", "name": "Mohammad Asadi", "@id": "https://masadi.ai/#mohammad-asadi" },
     { "@type": "Person", "name": "Jack W. O'Sullivan" },

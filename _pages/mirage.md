@@ -4,10 +4,10 @@ permalink: /mirage/
 title: MIRAGE
 nav: false
 description: "MIRAGE, a Stanford study first-authored by Mohammad Asadi: frontier vision-language models confidently 'diagnose' medical images they were never shown."
-last_modified_at: 2026-06-10
+last_modified_at: 2026-06-12
 ---
 
-<img src="/assets/img/publication_preview/mirage.png" alt="Results figure from MIRAGE: The Illusion of Visual Understanding" style="width:100%; border:1px solid var(--global-divider-color); border-radius:5px;" />
+<img src="/assets/img/mirage-hero.png" alt="Results figure from MIRAGE: The Illusion of Visual Understanding" style="width:100%; border:1px solid var(--global-divider-color); border-radius:5px;" />
 
 **MIRAGE: The Illusion of Visual Understanding**
 <br/>Mohammad Asadi<sup>*</sup>, Jack W. O'Sullivan<sup>*</sup>, Fang Cao, Tahoura Nedaee, Kamyar Rajabalifardi, Fei-Fei Li<sup>†</sup>, Ehsan Adeli<sup>†</sup>, Euan Ashley<sup>†</sup> · arXiv, 2026
@@ -51,7 +51,7 @@ MIRAGE was covered by [Fortune](https://fortune.com/2026/03/31/ai-mirages-alien-
   "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.48550/arXiv.2603.21687" },
   "datePublished": "2026-03-23",
   "inLanguage": "en",
-  "image": "https://masadi.ai/assets/img/publication_preview/mirage.png",
+  "image": "https://masadi.ai/assets/img/mirage-hero.png",
   "author": [
     { "@type": "Person", "name": "Mohammad Asadi", "@id": "https://masadi.ai/#mohammad-asadi" },
     { "@type": "Person", "name": "Jack W. O'Sullivan" },
