@@ -27,6 +27,6 @@ latest_posts:
   enabled: false
 ---
 
-I'm a PhD student in Electrical Engineering at Stanford, where I work in the [Ashley Lab](https://ashleylab.stanford.edu/) and the [STAI Lab](https://stai.stanford.edu/), advised by Prof. [Euan Ashley](https://profiles.stanford.edu/euan-ashley) and co-advised by Prof. [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) and Prof. [Ehsan Adeli](https://profiles.stanford.edu/ehsan-adeli). I build multimodal models for cardiology that read ECG, echocardiograms, and cardiac MRI, and I study where frontier multimodal models fail. In [MIRAGE](/mirage/), we found that they will confidently 'diagnose' medical images they were never shown.
+I'm a PhD student in Electrical Engineering at Stanford, where I work in the [Ashley Lab](https://ashleylab.stanford.edu/) and the [STAI Lab](https://stai.stanford.edu/), advised by Prof. Euan Ashley and co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli. I build multimodal models for cardiology that read ECG, echocardiograms, and cardiac MRI, and I study where frontier multimodal models fail. In [MIRAGE](/mirage/), we found that they will confidently 'diagnose' medical images they were never shown.
 
 Before Stanford, I worked on human-motion generation at Samsung and on interpretable machine learning for education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
