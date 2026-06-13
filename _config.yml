@@ -14,7 +14,7 @@ footer_text: >
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Mohammad Asadi, Stanford, Electrical Engineering, AI for medicine, MIRAGE, MARCUS, multimodal vision-language models, cardiology AI, medical AI, Ashley Lab, Amazon AI PhD Fellow, Stanford HAI Graduate Fellow
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # ECG-trace site icon (in /assets/img/)
 
 url: https://masadi.ai # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
