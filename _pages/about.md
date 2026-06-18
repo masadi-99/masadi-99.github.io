@@ -1,9 +1,9 @@
 ---
 layout: about
 title: About
-seo_title: Mohammad Asadi | Stanford EE PhD Student | AI for Medicine
+seo_title: Mohammad Asadi | Stanford EE PhD Student | Multimodal & Agentic AI
 permalink: /
-description: Mohammad Asadi is a PhD student in Electrical Engineering at Stanford, working on multimodal and agentic AI and the reliability of frontier AI models.
+description: Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University, working on multimodal and agentic AI and the reliability of frontier AI models.
 last_modified_at: 2026-06-14
 subtitle: PhD student, Electrical Engineering · <a href="https://www.stanford.edu/">Stanford University</a> · <a href="https://ashleylab.stanford.edu/">Ashley Lab</a> · <a href="https://stai.stanford.edu/">STAI Lab</a>
 

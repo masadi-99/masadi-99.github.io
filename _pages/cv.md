@@ -5,14 +5,14 @@ title: CV
 nav: true
 nav_order: 4
 description: "CV of Mohammad Asadi, PhD student in Electrical Engineering at Stanford University: education, experience, awards, fellowships, and patents."
-last_modified_at: 2026-06-10
+last_modified_at: 2026-06-14
 ---
 
 ## Education
 
-- **PhD, Electrical Engineering**, Stanford University (2023–present)
+- **PhD, Electrical Engineering**, Stanford University (2023-present)
   Ashley Lab and STAI Lab. Advised by Prof. Euan Ashley; co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli.
-- **BSc, Electrical Engineering**, Sharif University of Technology (2018–2022)
+- **BSc, Electrical Engineering**, Sharif University of Technology (2018-2022)
 
 ## Experience
 

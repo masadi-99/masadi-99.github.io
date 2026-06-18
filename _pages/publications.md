@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "Publications by Mohammad Asadi, PhD student in Electrical Engineering at Stanford University, including MIRAGE, MARCUS, and AI for medicine research."
+description: "Publications by Mohammad Asadi, PhD student in Electrical Engineering at Stanford University, spanning multimodal and agentic AI and the reliability of frontier models, including MIRAGE and MARCUS, with applications in medicine."
 nav: true
 nav_order: 2
 last_modified_at: 2026-06-09
