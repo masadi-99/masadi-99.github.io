@@ -18,6 +18,7 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 - MIRAGE: The Illusion of Visual Understanding (first author, 2026): https://arxiv.org/abs/2603.21687
 - MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management (co-first author, 2026): https://arxiv.org/abs/2603.22179
 - Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain (first author, accepted to MICCAI 2026): https://arxiv.org/abs/2603.21693
+- EchoGraph-annotated ECHO-NOTE2NUM examples (dataset, PhysioNet 2025, DOI 10.13026/hb5q-9532): https://physionet.org/content/echograph-note2num-annotations/1.0.0/
 - OpenMHC: Accelerating the Science of Wearable Foundation Models (co-author, 2026): https://arxiv.org/abs/2607.16235
 - NeuroQA: A Large-Scale Image-Grounded Benchmark for 3D Brain MRI Understanding (co-author, 2026): https://arxiv.org/abs/2605.20525
 - Ripple: Concept-Based Interpretation for Raw Time Series Models in Education (first author, AAAI 2023): https://arxiv.org/abs/2212.01133
@@ -27,4 +28,7 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 - Advisors: Prof. Euan Ashley (advisor); Prof. Fei-Fei Li and Prof. Ehsan Adeli (co-advisors).
 - Awards: Amazon AI PhD Fellowship; Stanford HAI Graduate Fellowship; "Smartest AI Agent" Prize at TreeHacks 2024.
 - Press: MIRAGE covered by Fortune, Live Science (interview), and Futurism (interview), among others.
+- Uptake: MIRAGE is cited by independent groups, including "Mirage Probes: How Vision Models Fake Visual Understanding" (arXiv 2606.13870). Mirage Score, Phantom-0, and B-Clean are openly released.
+- MIRAGE is also hosted as a Stanford Graduate School of Business working paper: https://www.gsb.stanford.edu/faculty-research/working-papers/mirage-illusion-visual-understanding
+- Note on citation counts: the Google Scholar total (~125 as of July 2026) includes a 2021 undergraduate co-authored paper on graphene nanomaterials (ACS Biomaterials Science and Engineering), which is outside his current research area.
 - Contact: masadi@stanford.edu · Google Scholar (cRuOHB0AAAAJ) · GitHub (masadi-99) · LinkedIn (mohammad-asadi-9a7b6b191).
