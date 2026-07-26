@@ -17,7 +17,9 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 ## Selected publications
 - MIRAGE: The Illusion of Visual Understanding (first author, 2026): https://arxiv.org/abs/2603.21687
 - MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management (co-first author, 2026): https://arxiv.org/abs/2603.22179
-- Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain (first author, 2026): https://arxiv.org/abs/2603.21693
+- Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain (first author, accepted to MICCAI 2026): https://arxiv.org/abs/2603.21693
+- OpenMHC: Accelerating the Science of Wearable Foundation Models (co-author, 2026): https://arxiv.org/abs/2607.16235
+- NeuroQA: A Large-Scale Image-Grounded Benchmark for 3D Brain MRI Understanding (co-author, 2026): https://arxiv.org/abs/2605.20525
 - Ripple: Concept-Based Interpretation for Raw Time Series Models in Education (first author, AAAI 2023): https://arxiv.org/abs/2212.01133
 
 ## Facts

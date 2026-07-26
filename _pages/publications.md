@@ -5,7 +5,7 @@ title: Publications
 description: "Publications by Mohammad Asadi, PhD student in Electrical Engineering at Stanford University, spanning multimodal and agentic AI, AI evaluation, and trustworthy AI, including MIRAGE and MARCUS, with applications in medicine."
 nav: true
 nav_order: 2
-last_modified_at: 2026-06-09
+last_modified_at: 2026-07-26
 ---
 
 <!-- _pages/publications.md -->
