@@ -4,16 +4,16 @@ permalink: /mirage/
 title: MIRAGE
 nav: false
 description: "MIRAGE, a Stanford study first-authored by Mohammad Asadi: frontier vision-language models confidently 'diagnose' medical images they were never shown."
-last_modified_at: 2026-06-12
+last_modified_at: 2026-07-26
 ---
 
 <img src="/assets/img/mirage-hero.png" alt="Results figure from MIRAGE: The Illusion of Visual Understanding" style="width:100%; border:1px solid var(--global-divider-color); border-radius:5px;" />
 
 **MIRAGE: The Illusion of Visual Understanding**
 <br/>Mohammad Asadi<sup>*</sup>, Jack W. O'Sullivan<sup>*</sup>, Fang Cao, Tahoura Nedaee, Kamyar Rajabalifardi, Fei-Fei Li<sup>†</sup>, Ehsan Adeli<sup>†</sup>, Euan Ashley<sup>†</sup> · arXiv, 2026
-<br/><small>* Equal contribution · † Co-supervisors</small>
+<br/><small>* Co-first authors (equal contribution) · † Co-supervisors</small>
 
-[arXiv](https://arxiv.org/abs/2603.21687) · [Code](https://github.com/masadi-99/MIRAGE) · [In the press](/press/)
+[arXiv](https://arxiv.org/abs/2603.21687) · [Code](https://github.com/masadi-99/MIRAGE) · [Stanford GSB working paper](https://www.gsb.stanford.edu/faculty-research/working-papers/mirage-illusion-visual-understanding) · [In the press](/press/)
 
 ## TL;DR
 
@@ -34,6 +34,17 @@ A confident answer is not evidence that a model actually saw anything. In "agent
 - **Mirage Score**: how much benchmark accuracy survives when the image is removed.
 - **Phantom-0**: a 200-question benchmark across 20 categories for measuring mirage reasoning.
 - **B-Clean**: a decontamination framework that reveals how much benchmark performance was never actually visual.
+
+## Uptake by other research groups
+
+Independent groups (no overlap with our author list) have built on MIRAGE:
+
+- **[Mirage Probes: How Vision Models Fake Visual Understanding](https://arxiv.org/abs/2606.13870)** (2026) extends the mirage finding with probing methods.
+- **[Understanding the Role of Hallucination in Reinforcement Post-Training](https://arxiv.org/abs/2604.03179)** (2026).
+- **[Attend to Evidence: Evidence-Anchored Spatial Attention Supervision](https://arxiv.org/abs/2605.30912)** (2026).
+- **[The Cost of Language: Centroid Erasure Exposes and Exploits Modal Competition](https://arxiv.org/abs/2604.14363)** (2026).
+
+The paper has 40 citations (Google Scholar, as of 26 July 2026); see the [live count](https://scholar.google.com/citations?user=cRuOHB0AAAAJ). The **Mirage Score**, **Phantom-0**, and **B-Clean** are openly released in the [code repository](https://github.com/masadi-99/MIRAGE).
 
 ## In the news
 

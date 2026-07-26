@@ -11,7 +11,7 @@ last_modified_at: 2026-06-12
 
 **MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management**
 <br/>Mohammad Asadi<sup>*</sup>, Jack W. O'Sullivan<sup>*</sup>, Lennart Elbe, Akshay Chaudhari, Tahoura Nedaee, Francois Haddad, Michael Salerno, Fei-Fei Li, Ehsan Adeli, Rima Arnaout, Euan A. Ashley · arXiv, 2026
-<br/><small>* Equal contribution</small>
+<br/><small>* Co-first authors (equal contribution)</small>
 
 [arXiv](https://arxiv.org/abs/2603.22179) · [Code](https://github.com/AshleyLab/MARCUS)
 
