@@ -21,8 +21,8 @@ last_modified_at: 2026-06-14
 
 ## Awards & Fellowships
 
-- **Amazon AI PhD Fellowship**, 2025
-- **Stanford HAI Graduate Fellowship**, 2025
+- **Amazon AI PhD Fellowship**, 2025. First cohort of the [Amazon AI PhD Fellowship program](https://www.amazon.science/news/amazon-launches-68-million-ai-phd-fellowship-program), launched 2025; awarded at Stanford via [Stanford Data Science](https://datascience.stanford.edu/about/people/amazon-ai-phd-fellows).
+- **Stanford HAI Graduate Fellowship**, 2025. [Stanford Institute for Human-Centered AI](https://hai.stanford.edu/people/mohammad-asadi).
 - **"Smartest AI Agent" Prize**, TreeHacks 2024 (project: *Healthiator*)
 
 ## Service
