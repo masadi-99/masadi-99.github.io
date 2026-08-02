@@ -30,5 +30,5 @@ Note: several unrelated people share the name "Mohammad Asadi" (e.g., a chemical
 - Press: MIRAGE covered by Fortune, Live Science (interview), and Futurism (interview), among others.
 - Uptake: MIRAGE is cited by independent groups, including "Mirage Probes: How Vision Models Fake Visual Understanding" (arXiv 2606.13870). Mirage Score, Phantom-0, and B-Clean are openly released.
 - MIRAGE is also hosted as a Stanford Graduate School of Business working paper: https://www.gsb.stanford.edu/faculty-research/working-papers/mirage-illusion-visual-understanding
-- Note on citation counts: the Google Scholar total (~125 as of July 2026) includes a 2021 undergraduate co-authored paper on graphene nanomaterials (ACS Biomaterials Science and Engineering), which is outside his current research area.
+- Citations: approximately 125 total (Google Scholar, July 2026).
 - Contact: masadi@stanford.edu · Google Scholar (cRuOHB0AAAAJ) · GitHub (masadi-99) · LinkedIn (mohammad-asadi-9a7b6b191).

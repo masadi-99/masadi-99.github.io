@@ -10,7 +10,7 @@ last_modified_at: 2026-07-26
 
 <!-- _pages/publications.md -->
 
-Full publication list. Live citation metrics: [Google Scholar profile](https://scholar.google.com/citations?user=cRuOHB0AAAAJ) (approximately 125 total citations as of 26 July 2026, including earlier undergraduate work in a different field).
+Full publication list. Live citation metrics: [Google Scholar profile](https://scholar.google.com/citations?user=cRuOHB0AAAAJ) (approximately 125 total citations as of 26 July 2026).
 
 <!-- Bibsearch Feature -->
 
@@ -28,14 +28,6 @@ Full publication list. Live citation metrics: [Google Scholar profile](https://s
 
 <ul>
   <li><strong>EchoGraph-annotated ECHO-NOTE2NUM examples</strong> (v1.0.0, 2025). Chieh-Ju Chao, Mohammad Asadi. PhysioNet. DOI <a href="https://doi.org/10.13026/hb5q-9532">10.13026/hb5q-9532</a> &middot; <a href="https://physionet.org/content/echograph-note2num-annotations/1.0.0/">PhysioNet record</a></li>
-</ul>
-
-<h2>Earlier work (undergraduate)</h2>
-
-<p>Work completed during my BSc at Sharif University of Technology, in a different field from my current research:</p>
-
-<ul>
-  <li>M. Ebrahimi, <strong>M. Asadi</strong>, O. Akhavan. "Graphene-based nanomaterials in fighting the most challenging viruses and immunogenic disorders." <em>ACS Biomaterials Science &amp; Engineering</em>, 8(1), 54-81, 2021. <a href="https://doi.org/10.1021/acsbiomaterials.1c01184">DOI</a></li>
 </ul>
 
 <p style="font-size: 0.85rem; color: var(--global-text-color-light);">

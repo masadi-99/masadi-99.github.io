@@ -40,7 +40,7 @@ last_modified_at: 2026-06-14
 
 ## Selected Publications
 
-This is a selected list. See the [publications page](/publications/) for the complete list, including earlier undergraduate work.
+This is a selected list. See the [publications page](/publications/) for the complete list.
 
 - **MIRAGE: The Illusion of Visual Understanding**, first author, 2026. [arXiv](https://arxiv.org/abs/2603.21687) · [Stanford GSB working paper](https://www.gsb.stanford.edu/faculty-research/working-papers/mirage-illusion-visual-understanding)
 - **MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management**, co-first author (equal contribution), 2026. [arXiv](https://arxiv.org/abs/2603.22179)
