@@ -50,7 +50,3 @@ This is a selected list. See the [publications page](/publications/) for the com
 
 - [Google Scholar](https://scholar.google.com/citations?user=cRuOHB0AAAAJ) · [GitHub](https://github.com/masadi-99) · [LinkedIn](https://www.linkedin.com/in/mohammad-asadi-9a7b6b191/)
 - [Stanford Profiles](https://profiles.stanford.edu/mohammad-asadi) · [Stanford HAI](https://hai.stanford.edu/people/mohammad-asadi) · [Stanford Data Science](https://datascience.stanford.edu/people/mohammad-asadi)
-
-<p style="font-size: 0.85rem; color: var(--global-text-color-light);">
-Note: several unrelated researchers share the name "Mohammad Asadi," including a professor of chemical engineering at Illinois Institute of Technology and a theoretical physicist. This CV covers only the Stanford Electrical Engineering PhD student.
-</p>

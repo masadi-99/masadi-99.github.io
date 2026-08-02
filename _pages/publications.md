@@ -29,7 +29,3 @@ Full publication list. Live citation metrics: [Google Scholar profile](https://s
 <ul>
   <li><strong>EchoGraph-annotated ECHO-NOTE2NUM examples</strong> (v1.0.0, 2025). Chieh-Ju Chao, Mohammad Asadi. PhysioNet. DOI <a href="https://doi.org/10.13026/hb5q-9532">10.13026/hb5q-9532</a> &middot; <a href="https://physionet.org/content/echograph-note2num-annotations/1.0.0/">PhysioNet record</a></li>
 </ul>
-
-<p style="font-size: 0.85rem; color: var(--global-text-color-light);">
-Note: several unrelated researchers share the name "Mohammad Asadi," including a professor of chemical engineering at Illinois Institute of Technology and a theoretical physicist. This list covers only the work of the Stanford Electrical Engineering PhD student.
-</p>
