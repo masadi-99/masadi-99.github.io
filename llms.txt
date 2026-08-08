@@ -13,6 +13,7 @@ Mohammad Asadi is a PhD student in the Department of Electrical Engineering at S
 - [CV](https://masadi.ai/cv/): education, experience, awards, patents.
 
 ## Selected publications
+- Align-RAG: Alignment Is All You Need for TSFM In-Context Learning (first author, 2026, collaboration with Amazon): https://arxiv.org/abs/2608.05571
 - MIRAGE: The Illusion of Visual Understanding (first author, 2026): https://arxiv.org/abs/2603.21687
 - MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management (co-first author, 2026): https://arxiv.org/abs/2603.22179
 - Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain (first author, accepted to MICCAI 2026): https://arxiv.org/abs/2603.21693
