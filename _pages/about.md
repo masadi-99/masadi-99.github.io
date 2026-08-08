@@ -31,4 +31,4 @@ I'm a PhD student in Electrical Engineering at Stanford, advised by Prof. Euan A
 
 My work is supported by the [Amazon AI PhD Fellowship](https://datascience.stanford.edu/about/people/amazon-ai-phd-fellows) and the [Stanford HAI Graduate Fellowship](https://hai.stanford.edu/people/mohammad-asadi).
 
-Before Stanford, I worked on human-motion generation at Samsung and on interpretable machine learning for education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
+Previously, I worked on human-motion generation at Samsung and on interpretable machine learning for education at EPFL, and I did my BSc in Electrical Engineering at Sharif University of Technology.
