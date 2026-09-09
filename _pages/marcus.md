@@ -38,6 +38,7 @@ A trustworthy cardiology assistant has to combine signals and images the way a c
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
+  "@id": "https://masadi.ai/marcus/#article",
   "headline": "MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management",
   "name": "MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management",
   "url": "https://masadi.ai/marcus/",
@@ -55,10 +56,10 @@ A trustworthy cardiology assistant has to combine signals and images the way a c
     { "@type": "Person", "name": "Tahoura Nedaee" },
     { "@type": "Person", "name": "Francois Haddad" },
     { "@type": "Person", "name": "Michael Salerno" },
-    { "@type": "Person", "name": "Fei-Fei Li" },
-    { "@type": "Person", "name": "Ehsan Adeli" },
+    { "@type": "Person", "name": "Fei-Fei Li", "@id": "https://profiles.stanford.edu/fei-fei-li" },
+    { "@type": "Person", "name": "Ehsan Adeli", "@id": "https://profiles.stanford.edu/ehsan-adeli" },
     { "@type": "Person", "name": "Rima Arnaout" },
-    { "@type": "Person", "name": "Euan A. Ashley" }
+    { "@type": "Person", "name": "Euan A. Ashley", "@id": "https://profiles.stanford.edu/euan-ashley" }
   ],
   "publisher": { "@type": "Organization", "name": "arXiv" },
   "abstract": "MARCUS (Multimodal Autonomous Reasoning and Chat for Ultrasound and Signals) is an agentic vision-language assistant that reads and reasons over ECG, echocardiography, and cardiac MRI, individually or jointly. Modality-specific expert models are coordinated by a multimodal orchestrator that resists the mirage reasoning failure mode."

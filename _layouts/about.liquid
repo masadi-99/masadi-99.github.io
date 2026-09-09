@@ -118,48 +118,70 @@ layout: default
     "name": "Mohammad Asadi",
     "givenName": "Mohammad",
     "familyName": "Asadi",
-    "alternateName": "M. Asadi",
     "jobTitle": "PhD Student in Electrical Engineering",
-    "description": "Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University, advised by Prof. Euan Ashley and co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli. His research spans two complementary threads: developing multimodal, agentic AI systems that reason jointly over heterogeneous data, and building evaluations that expose where frontier multimodal models fail. His current work applies these methods in medicine. His research exposing failures in frontier AI models has been covered by Fortune, Live Science, and Futurism. He is an Amazon AI PhD Fellow and a Stanford HAI Graduate Fellow.",
-    "disambiguatingDescription": "Stanford PhD student in Electrical Engineering researching multimodal and agentic AI, AI evaluation, and trustworthy AI; not the professor of chemical engineering at Illinois Institute of Technology",
+    "description": "Mohammad Asadi is a PhD student in Electrical Engineering at Stanford University, advised by Prof. Euan Ashley and co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli. He builds multimodal, agentic AI systems that reason jointly over heterogeneous data, and evaluations that expose where frontier multimodal models fail; his current work applies these methods in medicine. He is an Amazon AI PhD Fellow and a Stanford HAI Graduate Fellow.",
+    "disambiguatingDescription": "Stanford University Electrical Engineering PhD student (admitted 2023) working on multimodal and agentic AI, AI evaluation, and AI in medicine; ORCID 0009-0007-5308-9378. Not the chemical-engineering professor of the same name at Illinois Institute of Technology (ORCID 0000-0003-0354-2473).",
     "url": "{{ site.url }}/",
+    "mainEntityOfPage": "{{ site.url }}/",
     "image": "{{ site.url }}/assets/img/prof_pic.jpg",
-    "email": "mailto:masadi@stanford.edu",
+    "email": "masadi@stanford.edu",
     "identifier": [
-      { "@type": "PropertyValue", "propertyID": "Google Scholar", "value": "cRuOHB0AAAAJ" }
+      { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0007-5308-9378", "url": "https://orcid.org/0009-0007-5308-9378" },
+      { "@type": "PropertyValue", "propertyID": "Google Scholar", "value": "cRuOHB0AAAAJ", "url": "https://scholar.google.com/citations?user=cRuOHB0AAAAJ" }
     ],
     "affiliation": {
       "@type": "CollegeOrUniversity",
+      "@id": "https://ror.org/00f54p054",
       "name": "Stanford University",
-      "department": "Department of Electrical Engineering",
-      "url": "https://www.stanford.edu",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q41506",
-        "https://ror.org/00f54p054"
-      ]
+      "url": "https://www.stanford.edu/",
+      "sameAs": "https://www.wikidata.org/wiki/Q41506",
+      "department": { "@type": "Organization", "name": "Department of Electrical Engineering", "url": "https://ee.stanford.edu/" }
     },
-    "worksFor": [
-      { "@type": "Organization", "name": "Ashley Lab, Stanford University", "url": "https://ashleylab.stanford.edu/" },
-      { "@type": "Organization", "name": "Stanford Translational AI (STAI) Lab, Stanford University", "url": "https://stai.stanford.edu/" }
+    "memberOf": [
+      { "@type": "Organization", "name": "Ashley Lab", "url": "https://ashleylab.stanford.edu/", "parentOrganization": { "@id": "https://ror.org/00f54p054" } },
+      { "@type": "Organization", "name": "Stanford Translational AI (STAI) Lab", "url": "https://stai.stanford.edu/", "parentOrganization": { "@id": "https://ror.org/00f54p054" } }
     ],
-    "alumniOf": [
-      { "@type": "CollegeOrUniversity", "name": "Sharif University of Technology" }
+    "knows": [
+      { "@type": "Role", "roleName": "Doctoral advisor", "url": "https://ashleylab.stanford.edu/team/students/",
+        "knows": { "@type": "Person", "@id": "https://profiles.stanford.edu/euan-ashley", "name": "Euan A. Ashley", "url": "https://profiles.stanford.edu/euan-ashley", "sameAs": "https://www.wikidata.org/wiki/Q21005756" } },
+      { "@type": "Role", "roleName": "Doctoral co-advisor", "url": "https://profiles.stanford.edu/fei-fei-li?tab=teaching",
+        "knows": { "@type": "Person", "@id": "https://profiles.stanford.edu/fei-fei-li", "name": "Fei-Fei Li", "url": "https://profiles.stanford.edu/fei-fei-li", "sameAs": "https://www.wikidata.org/wiki/Q18686107" } },
+      { "@type": "Role", "roleName": "Doctoral co-advisor", "url": "https://stai.stanford.edu/people",
+        "knows": { "@type": "Person", "@id": "https://profiles.stanford.edu/ehsan-adeli", "name": "Ehsan Adeli", "url": "https://profiles.stanford.edu/ehsan-adeli", "sameAs": "https://www.wikidata.org/wiki/Q59822750" } }
     ],
-    "award": [
-      "Amazon AI PhD Fellowship",
-      "Stanford HAI Graduate Fellowship",
-      "Smartest AI Agent Prize, TreeHacks 2024"
-    ],
+    "alumniOf": { "@type": "CollegeOrUniversity", "@id": "https://ror.org/024c2fq17", "name": "Sharif University of Technology", "sameAs": "https://www.wikidata.org/wiki/Q2096604" },
+    "award": [ "Amazon AI PhD Fellowship", "Stanford HAI Graduate Fellowship", "Smartest AI Agent Prize, TreeHacks 2024" ],
     "knowsAbout": [
-      "Artificial Intelligence", "Agentic AI", "Multimodal Vision-Language Models", "AI Evaluation", "Trustworthy AI", "Hallucination Detection",
-      "AI in Medicine", "Cardiology", "Medical Imaging", "Electrocardiography", "Echocardiography", "Cardiac MRI"
+      "Multimodal AI", "Vision-Language Models", "Agentic AI Systems", "AI Evaluation and Benchmarking",
+      "Hallucination in Multimodal Models", "Trustworthy AI", "AI in Medicine",
+      "Cardiovascular Imaging (ECG, Echocardiography, Cardiac MRI)"
+    ],
+    "subjectOf": [
+      { "@type": "NewsArticle",
+        "@id": "https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings",
+        "url": "https://www.livescience.com/health/ai-mirages-mean-tools-used-to-analyze-medical-scans-could-fabricate-their-findings",
+        "headline": "AI 'mirages' mean tools used to analyze medical scans could fabricate their findings",
+        "datePublished": "2026-04-07T15:15:00Z", "inLanguage": "en",
+        "author": { "@type": "Person", "name": "Jennifer Zieba" },
+        "publisher": { "@type": "Organization", "name": "Live Science", "url": "https://www.livescience.com/" },
+        "about": { "@id": "{{ site.url }}/mirage/#article" } },
+      { "@type": "NewsArticle",
+        "@id": "https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see",
+        "url": "https://futurism.com/artificial-intelligence/frontier-models-medical-advice-x-rays-cant-see",
+        "headline": "Frontier AI Models Are Doing Something Absolutely Bizarre When Asked to Diagnose Medical X-Rays",
+        "datePublished": "2026-04-07T09:06:00-04:00", "inLanguage": "en",
+        "author": { "@type": "Person", "name": "Victor Tangermann" },
+        "publisher": { "@type": "Organization", "name": "Futurism", "url": "https://futurism.com/" },
+        "about": { "@id": "{{ site.url }}/mirage/#article" } }
     ],
     "sameAs": [
-      "https://scholar.google.com/citations?user=cRuOHB0AAAAJ&hl=en",
+      "https://orcid.org/0009-0007-5308-9378",
+      "https://scholar.google.com/citations?user=cRuOHB0AAAAJ",
       "https://github.com/masadi-99",
       "https://www.linkedin.com/in/mohammad-asadi-9a7b6b191/",
+      "https://profiles.stanford.edu/mohammad-asadi",
       "https://hai.stanford.edu/people/mohammad-asadi",
-      "https://profiles.stanford.edu/mohammad-asadi"
+      "https://datascience.stanford.edu/people/mohammad-asadi"
     ]
   }
 }
