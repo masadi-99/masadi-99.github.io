@@ -27,7 +27,7 @@ latest_posts:
   enabled: false
 ---
 
-I'm a PhD student in Electrical Engineering at Stanford, advised by Prof. Euan Ashley and co-advised by Prof. Fei-Fei Li and Prof. Ehsan Adeli. My research has two complementary threads: I build multimodal, agentic AI systems that reason jointly over heterogeneous data, and I develop evaluations that expose where frontier multimodal models fail. My current work applies these methods in medicine. I'm most interested in where these models break: a confident answer is not evidence that a model actually understood its input.
+I'm a PhD student in Electrical Engineering at Stanford, advised by Prof. [Euan Ashley](https://ashleylab.stanford.edu/team/students/) and co-advised by Prof. [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) and Prof. [Ehsan Adeli](https://stai.stanford.edu/people). My research has two complementary threads: I build multimodal, agentic AI systems that reason jointly over heterogeneous data, and I develop evaluations that expose where frontier multimodal models fail. My current work applies these methods in medicine. I'm most interested in where these models break: a confident answer is not evidence that a model actually understood its input.
 
 My work is supported by the [Amazon AI PhD Fellowship](https://datascience.stanford.edu/about/people/amazon-ai-phd-fellows) and the [Stanford HAI Graduate Fellowship](https://hai.stanford.edu/people/mohammad-asadi).
 
