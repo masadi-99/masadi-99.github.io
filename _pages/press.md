@@ -5,12 +5,20 @@ title: Press
 nav: true
 nav_order: 3
 description: "Press coverage of Mohammad Asadi's research, including the MIRAGE paper, in Fortune, Live Science, Futurism, and international outlets."
-last_modified_at: 2026-06-10
+last_modified_at: 2026-09-13
 ---
 
-Media coverage of my research. Coverage to date centers on [MIRAGE](/mirage/).
+Media coverage of my research, and pieces where I am quoted as an independent expert. Coverage to date centers on [MIRAGE](/mirage/).
 
 {% include press_list.liquid %}
+
+## Expert commentary
+
+Pieces where journalists asked me to assess other groups' work:
+
+{% include press_list.liquid items=site.data.commentary %}
+
+- [UA.NEWS](https://ua.news/en/health/shi-navchili-analizuvati-zrazki-tkanin-za-pidkhodom-patologiv) (Ukraine, English edition) carried the same story and quote.
 
 ## More coverage
 

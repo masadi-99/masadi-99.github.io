@@ -1,5 +1,6 @@
 {%- comment -%} Press list with each article's main image as the thumbnail. Optional param: limit {%- endcomment -%}
 {%- assign lim = include.limit | default: 999 -%}
+{%- assign items = include.items | default: site.data.press -%}
 <style>
   .press-list { list-style: none; margin: 0 0 0.5rem; padding: 0; }
   .press-list li { display: flex; gap: 1rem; align-items: center; padding: 0.7rem 0; border-top: 1px solid var(--global-divider-color); }
@@ -9,6 +10,7 @@
   .press-list .press-meta { min-width: 0; }
   .press-list .press-outlet { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--global-text-color-light); margin-bottom: 1px; }
   .press-list .press-title { line-height: 1.3; }
+  .press-list .press-note { font-size: 0.82rem; color: var(--global-text-color-light); margin-top: 2px; }
   /* Distinct from both the warm-gray outlet name and the terracotta title links,
      so the interview tag registers at a glance without shouting. */
   .press-list .press-int { color: #3f6b52; font-weight: 700; }
@@ -16,7 +18,7 @@
   @media (max-width: 576px) { .press-list .press-thumb { width: 96px; height: 60px; } }
 </style>
 <ul class="press-list">
-  {%- for p in site.data.press limit: lim -%}
+  {%- for p in items limit: lim -%}
   <li>
     <a class="press-thumb" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/img/press/' | append: p.image | relative_url }}" alt="{{ p.outlet | escape }}: {{ p.title | escape }}" loading="lazy" />
@@ -24,6 +26,7 @@
     <div class="press-meta">
       <div class="press-outlet">{% if p.interview %}<span class="press-int">(interview)</span> {% endif %}{{ p.outlet }}</div>
       <a class="press-title" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.title }}</a>
+      {% if p.note %}<div class="press-note">{{ p.note }}</div>{% endif %}
     </div>
   </li>
   {%- endfor -%}

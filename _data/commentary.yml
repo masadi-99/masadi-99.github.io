@@ -1,0 +1,10 @@
+# Media pieces where I am quoted as an independent expert on OTHER groups' work.
+# Kept separate from press.yml, which is coverage of my own research.
+- key: livescience-pathology
+  outlet: Live Science
+  title: "AI trained to 'think' like human pathologists may be better at spotting cancer"
+  url: https://www.livescience.com/health/cancer/ai-trained-to-think-like-human-pathologists-may-be-better-at-spotting-cancer
+  image: art-livescience-pathology.jpg
+  interview: true
+  note: "Quoted as an independent expert on Pathology-CoT (Nature Biomedical Engineering, 2026)."
+  date: 2026-09-12
