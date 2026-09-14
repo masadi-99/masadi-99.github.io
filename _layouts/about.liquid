@@ -46,8 +46,11 @@ layout: default
       <h2>
         <a href="{{ '/press/' | relative_url }}" style="color: inherit">In The Press</a>
       </h2>
-      <p>Selected coverage of my research:</p>
+      <p>Selected coverage of my research, and pieces where journalists asked me to assess other groups' work as an independent expert:</p>
       {% include press_list.liquid limit=3 %}
+      {% if site.data.commentary and site.data.commentary.size > 0 %}
+        {% include press_list.liquid items=site.data.commentary limit=2 %}
+      {% endif %}
       <p><a href="{{ '/press/' | relative_url }}">See all coverage →</a></p>
     {% endif %}
 

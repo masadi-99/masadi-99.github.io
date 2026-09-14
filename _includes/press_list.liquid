@@ -5,6 +5,7 @@
   .press-list { list-style: none; margin: 0 0 0.5rem; padding: 0; }
   .press-list li { display: flex; gap: 1rem; align-items: center; padding: 0.7rem 0; border-top: 1px solid var(--global-divider-color); }
   .press-list li:first-child { border-top: 0; }
+  .press-list + .press-list li:first-child { border-top: 1px solid var(--global-divider-color); }
   .press-list .press-thumb { flex: 0 0 auto; width: 132px; height: 80px; display: block; overflow: hidden; border: 1px solid var(--global-divider-color); border-radius: 4px; background: var(--global-card-bg-color); }
   .press-list .press-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .press-list .press-meta { min-width: 0; }
