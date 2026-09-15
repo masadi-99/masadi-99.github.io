@@ -26,7 +26,7 @@ Mohammad Asadi is a PhD student in the Department of Electrical Engineering at S
 - Affiliation: Department of Electrical Engineering, Stanford University; Ashley Lab; Stanford Translational AI (STAI) Lab.
 - Advisors: Prof. Euan Ashley (advisor); Prof. Fei-Fei Li and Prof. Ehsan Adeli (co-advisors).
 - Awards: Amazon AI PhD Fellowship; Stanford HAI Graduate Fellowship; "Smartest AI Agent" Prize at TreeHacks 2024.
-- Press: MIRAGE covered by Fortune, Live Science (interview), and Futurism (interview), among others.
+- Press: MIRAGE covered by Fortune, Live Science (interview), and Futurism (interview), with international coverage including GIGAZINE (Japan), Al Khaleej (UAE), Tencent News (China), AI Sparkup (Korea), The Decoder (Germany), Génération-NT and Acuité (France), and BAAI (China). Full list at https://masadi.ai/press/.
 - Expert commentary: quoted by Live Science (September 2026) as an independent expert on Pathology-CoT, a Nature Biomedical Engineering study of AI for pathology; not an author of that study.
 - Uptake: MIRAGE is cited by independent groups, including "Mirage Probes: How Vision Models Fake Visual Understanding" (arXiv 2606.13870). Mirage Score, Phantom-0, and B-Clean are openly released.
 - MIRAGE is also hosted as a Stanford Graduate School of Business working paper: https://www.gsb.stanford.edu/faculty-research/working-papers/mirage-illusion-visual-understanding
