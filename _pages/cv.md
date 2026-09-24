@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 4
 description: "CV of Mohammad Asadi, PhD student in Electrical Engineering at Stanford University: education, experience, awards, fellowships, and patents."
-last_modified_at: 2026-08-07
+last_modified_at: 2026-09-24
 ---
 
 ## Education
@@ -53,7 +53,7 @@ last_modified_at: 2026-08-07
 
 This is a selected list. See the [publications page](/publications/) for the complete list.
 
-- **Align-RAG: Alignment Is All You Need for TSFM In-Context Learning**, first author, 2026. Collaboration with Amazon. [arXiv](https://arxiv.org/abs/2608.05571) · [Code](https://github.com/masadi-99/align-rag)
+- **Align-RAG: Alignment Is All You Need for TSFM In-Context Learning**, first author. Accepted to NeurIPS 2026. Collaboration with Amazon. [arXiv](https://arxiv.org/abs/2608.05571) · [Code](https://github.com/masadi-99/align-rag)
 - **MIRAGE: The Illusion of Visual Understanding**, first author, 2026. [arXiv](https://arxiv.org/abs/2603.21687) · [Stanford GSB working paper](https://www.gsb.stanford.edu/faculty-research/working-papers/mirage-illusion-visual-understanding)
 - **MARCUS: An Agentic, Multimodal Vision-Language Model for Cardiac Diagnosis and Management**, co-first author (equal contribution), 2026. [arXiv](https://arxiv.org/abs/2603.22179)
 - **Deterministic Hallucination Detection in Medical VQA via Confidence-Evidence Bayesian Gain**, first author. Accepted to MICCAI 2026. [arXiv](https://arxiv.org/abs/2603.21693)
